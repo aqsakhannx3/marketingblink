@@ -1,0 +1,1244 @@
+@import url("./colors.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Nunito:wght@600;700;800&family=Rubik:wght@300;400;500;600;700&display=swap');
+
+*{
+ margin: 0;
+ padding :0;
+ box-sizing: border-box;
+
+ 
+}
+
+
+.navbarsection {
+    margin-top: 25px;
+   
+}
+.navbarsection .navbarbtn{
+    background: linear-gradient(to left ,#f0a056,#ec5c6b);
+    color: white;
+      border:none;
+      font-size: 14px;
+      font-family: 'Rubik', sans-serif;
+  font-weight: medium;
+  text-transform: uppercase;
+    width: 175.44px;
+    height: 50px;
+    border:none;
+    border-radius: 10px;
+}
+/* 12 */
+.navbarsection ul{
+   
+
+
+}
+.navbarsection li{
+  
+    margin-right: 10px;
+    
+
+}
+
+.navbarsection li a{
+  
+    color: var(--headingcolor) !important;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    line-height: 19px;
+    text-align: left;
+    font-size: 16px;
+    
+
+}
+
+.navbarsection li a:hover{
+    color:var(--hovercolor)  !important;
+}
+.navbarsection li .active{
+    color:var(--hovercolor)  !important;
+}
+
+
+.navbarsection button:hover{
+
+    color: white;
+
+ background:#ec5c6b;
+ transition: 0.3;
+}
+ /* Headersection */
+
+ .Header{
+     margin-top: 25px !important;
+ }
+
+ .headerleft{
+   
+     padding-top:10px;
+
+ }
+
+ .headerright h2{
+   word-spacing: 25px;
+    font-size: 68px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    background:linear-gradient(to left,#f0a056 ,#ec5c6b  ) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   line-height:68.66px;
+   font-weight: 800;
+   padding:10px;
+  
+}
+.headerright p{
+  
+
+    padding:10px;
+      font-size: 18px;
+      font-family: 'Rubik', sans-serif;
+      text-align: left;
+      margin-top:30px;
+      line-height:21.6px ;
+      font-weight: 400;
+    }
+    .marketingblink{
+        color: var(--hovercolor);
+    
+    
+        font-weight: 700;
+        line-height: 21.6px;
+      }
+      
+      .HeaderInput{
+  
+        margin-top:25px;
+   
+        padding:10px;
+       
+      
+      }
+
+      .Header input{
+          background-color: #F8F9FA;
+          font-size: 14px;
+          font-family: 'Rubik', sans-serif;
+          line-height:16.8px ;
+          padding:10px;
+          margin-bottom: 20px;
+          width: 240px;
+          border:none;
+          height: 50px;
+          
+      }
+      .Headerbtn{
+         
+          padding:10px;
+     
+      }
+      .Headerbtn button{
+        width: 240px;
+        height: 50px;
+   
+    }
+      .btnrequest{
+        background-color: var(--headingcolor) !important;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 500;
+        color: white !important;
+         width: 240px;
+        padding:10px;
+        border-radius: 10px;
+        border: none;
+          margin-left: 5px;
+      }
+
+      .btnrequest:hover{
+        background-color: white !important;
+
+  color: var(--headingcolor) !important;
+
+  border:  2px solid var(--headingcolor);
+      }
+
+
+      .btnlive{
+        background: linear-gradient(to left,#f0a056 ,#ec5c6b) !important;
+        width: 240px;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 500;
+        color: white !important;
+       
+      margin-left: 30px;
+        border-radius: 10px;
+        border: none;
+       
+    }
+
+
+    .btnlive:hover{
+        color: white !important;
+        background:#ec5c6b !important;
+        transition: 0.3;
+    }
+      .dropdowninput {
+        background-color: #F8F9FA;
+          font-size: 14px;
+          font-family: 'Rubik', sans-serif;
+          line-height: 16.8px;
+          font-variant: var(--headingcolor);
+          width: 240px;
+          height: 50px;
+          border-radius: 10px;
+      }
+
+      .dropdowninput a {
+          padding:10px;
+      }
+      .dropdowninput .dropdown-toggle::after {
+        
+        text-align: right;
+         color: var(--hovercolor);
+         margin-left: 120px;
+       
+       }
+
+
+       /* logoslider */
+
+.header-icons{
+   padding:50px;
+   
+
+}
+
+/* socialmediamarketing */
+.socialmedia{
+  
+  margin-top: 70px;
+  background-image: url("../images/socialmediabackimg.jpg");
+}
+.socialmediarow{
+
+  padding: 50px;
+}
+.socialmedialeft{
+
+ padding-top: 30px;
+}
+.socialmedialeft h3{
+  width: 410px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 43.2px;
+  color: var( --headingcolor);
+  text-align: left;
+
+}
+.socialmedialeft p{
+  color: var( --headingcolor);
+  text-align: left;
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  margin-top: 50px;
+
+
+}
+.SMMbtn{
+  
+  margin-top: 40px;;
+}
+
+.SMMbtn button{
+width: 172.94px;
+height: 50px;
+font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  border-radius: 10px;
+  border: none;
+  line-height: 16.8px;
+  text-transform: uppercase;
+
+}
+.SMMbtn .SMMbtn1{
+  background: linear-gradient(to left,#f0a056 ,#ec5c6b);
+
+  
+  color: white; 
+
+}
+
+.SMMbtn .SMMbtn1:hover{
+  background: #ec5c6b;
+  color:white;
+  transition: 0.3;;
+}
+
+.SMMbtn .SMMbtn2{
+  background: var(--headingcolor);
+  color: white;
+  margin-left: 20px;
+ 
+}
+.SMMbtn .SMMbtn2:hover{
+  background: white;
+  border:2px solid var(--headingcolor); 
+  color: var(--headingcolor);
+  border: 2px solid var(--headingcolor);
+ 
+}
+
+
+.SMMcol{
+  
+  margin-bottom: 25px;
+
+
+}
+.SMMcol .card{
+ 
+  padding:20px !important;
+  border-radius: 24px;
+  width: 263.03px;
+     box-shadow: 0px 0px 60px #EFF2F5;
+  height: 224.23px;
+}
+
+.SMMcol .card h4{
+  margin-left: 10px ;
+  font-family: 'Rubik', sans-serif;
+  color: var(--headingcolor);
+  font-size: 18px;
+  line-height: 21.6px;
+  font-weight: 600;
+
+  text-align: left;
+  
+ margin-top: 5px;
+
+}
+
+.SMMcol .card p{
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  color: var(--headingcolor);
+  font-size: 14px;
+  line-height: 16.8px;
+  text-align: left;
+  padding-top:15px;
+  padding-bottom: 15px;
+
+}
+.SMMcol .SMM .SMMimg{
+  background-image: url("../images/groupcontactorangepng.png") !important;
+ 
+    background-repeat: no-repeat;
+  background-size: contain;
+}
+.SMMcol .SMM:hover .SMMimg{
+  background-image: url("../images/groupcontactwhitepng.png") !important;
+ 
+    background-repeat: no-repeat;
+  background-size: contain;
+}
+.SMMcol .SMM:hover h4 {
+  color: white;
+}
+.SMMcol .SMM:hover  p{
+  color: white;
+}
+.SMMcol .SMM:hover {
+background-color: #E25C43;
+
+}
+.SMScol .SMS:hover h4 {
+  color: white;
+}
+.SMMcol .SMS:hover  p{
+  color: white;
+}
+.SMMcol .SMS:hover {
+background-color:  #28cfe8
+
+}
+/* COL2 */
+
+
+
+.SMMcol .SMS .SMSimg{
+  background-image: url("../images/chess.png") !important;
+ 
+    background-repeat: no-repeat;
+  background-size: contain;
+}
+.SMMcol .SMS:hover .SMSimg{
+  background-image: url("../images/chesswhite.png") !important;
+ 
+    background-repeat: no-repeat;
+  background-size: contain;
+}
+.SMMcol .SMS:hover h4 {
+  color: white ;
+}
+.SMMcol .SMS:hover  p{
+  color: white ;
+}
+.SMScol .SMS:hover {
+  background-color: #28cfe8 ;
+        transition: 0.5s;
+
+}
+
+/* COL3 */
+
+
+.SMMcol .SMC .SMCimg{
+  background-image: url("../images/speaker.png") !important;
+ 
+    background-repeat: no-repeat;
+  background-size: contain;
+}
+.SMMcol .SMC:hover .SMCimg{
+  background-image: url("../images/speakerwhite.png") !important;
+ 
+    background-repeat: no-repeat;
+  background-size: contain;
+}
+.SMMcol .SMC:hover h4 {
+  color: white;
+}
+.SMMcol .SMC:hover  p{
+  color: white;
+}
+.SMMcol .SMC:hover {
+  background-color: #84c200;
+  transition: 0.5s;
+
+}
+
+/* COL4 */
+
+
+.SMMcol .CSS .CSSimg{
+  background-image: url("../images/profile.png") !important;
+margin-top: 10px;
+ 
+    background-repeat: no-repeat;
+  background-size: contain;
+}
+.SMMcol .CSS:hover .CSSimg{
+  background-image: url("../images/profilewhite.png") !important;
+ 
+    background-repeat: no-repeat;
+  background-size: contain;
+}
+.SMMcol .CSS:hover h4 {
+  color: white;
+}
+.SMMcol .CSS:hover  p{
+  color: white;
+}
+.SMMcol .CSS:hover {
+  background-color: #9929ea;
+               
+                transition: 0.5s;
+
+
+
+
+
+}
+
+
+
+
+
+
+/* workingwith */
+
+.workingwith{
+
+  margin-top: 70px;
+}
+
+ 
+.workingwithcontainer{
+ 
+  padding:50px;
+}
+.workingwithtext h3 {
+  color: var( --headingcolor);
+  text-align: left;
+  font-family: 'Nunito', sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 43px;
+ 
+
+}
+.workingwithicons{
+
+  margin-top: 60px !important;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+
+
+
+
+
+/* SeoStrategy */
+
+.SeoStrategy{
+
+  margin-top: 60px;
+}
+.SeoStrategyimg{
+  position: relative;
+  top: 0;
+  bottom: 0;
+}
+.SeoStrategyimg .seoimg{
+
+  position: absolute;
+ 
+  left: 350px;
+  top:10px;
+z-index: -1;
+}
+
+/* .SeoStrategyleft{
+
+  background-image: url("./components/images/webimages/superman.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+   
+} */
+
+.SeoStrategyright{
+
+  padding:20px !important;
+ 
+}
+.SeoStrategyright h4{
+  margin-bottom: -5px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--headingcolor);
+  text-transform: uppercase;
+  line-height: 21.6px;
+ 
+}
+
+.SeoStrategyright h3{
+
+  color: var( --headingcolor);
+  text-align: left;
+  font-family: 'Nunito', sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 43px;
+ 
+  
+ 
+}
+
+.SeoStrategyright p{
+
+margin-top: 40px;
+
+font-family: 'Rubik', sans-serif;
+font-size: 16px;
+  font-weight: 400;
+  color: var(--headingcolor);
+  line-height: 19.2px;
+ 
+}
+
+
+
+.marketingblink{
+  font-size: 16px;
+  font-family: 'Rubik', sans-serif;
+  color: var( --cardhover);
+  font-weight: bold 600;
+  
+}
+.SeoStrategytabs{
+ 
+}
+
+.SeoStrategytabs button{
+background: transparent !important;
+  
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+ 
+  color: var(--headingcolor) !important;
+  
+}
+
+
+.SeoStrategytabs button:hover{
+
+  color: var(--hovercolor) !important;
+  
+}
+.tabcontentcard   {
+  
+
+
+  padding:40px !important;
+  
+  border-radius: 40px;
+}
+.tabcard{
+
+  background: linear-gradient(to left ,#f0a056,#ec5c6b);
+  width:323.02px;
+  height:193.64px;
+  padding:10px !important;
+  border-radius: 24px !important;
+ 
+}
+
+.tabcard p{
+  
+
+ color: white;
+  margin-top: 10px;
+  font-size: 16px;
+  font-family: 'Rubik', sans-serif;
+  line-height: 19.2px;
+ 
+}
+
+ 
+.SeoStrategyright .SeoStrategybtn{
+ 
+ 
+border: 2px solid var(--headingcolor);
+  color: var(--headingcolor);
+  font-size: 14px ;
+  font-family: 'Rubik', sans-serif ;
+  font-weight: bold;
+  padding:10px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  margin-top: 30px !important;
+ 
+ 
+
+}
+
+.SeoStrategyright .SeoStrategybtn:hover{
+ 
+ 
+    color: white !important;
+   background-color: var(--headingcolor) !important;
+   transition: 0.5;
+   
+  
+  }
+.tabcontentcard p{
+  color: white;
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: 'Rubik', sans-serif;
+
+}
+
+
+.DigitalCoomunication{
+
+  margin-top: 200px;
+  background-image: url("../images/digitalcommback.png");
+
+}
+
+.DCcontent{
+
+padding: 50px;
+
+}
+/* .DCcontent .DCleft{
+  padding-top: 50px;
+
+} */
+.DigitalCoomunication h3{
+ 
+ 
+  color: var( --headingcolor);
+  font-family: 'Nunito', sans-serif;
+  font-size: 36px ;
+  line-height: 43.2px;
+  text-align: left;
+  width: auto;
+  font-weight: 800;
+
+}
+
+.DigitalCoomunication p{
+
+ font-family: 'Rubik', sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 19.2px;
+text-align: left;
+margin-top: 50px;
+color: var( --headingcolor);
+}
+.DigitalCoomunication button{
+  margin-top: 32px;
+  text-transform: uppercase;
+  width: 361.8px;
+  height: 50px;
+background: var(--headingcolor);
+
+font-family: 'Rubik', sans-serif;
+font-size: 14px;
+color: white;
+font-weight: 500;
+line-height: 16.8px;
+border-radius: 10px;
+padding:10px;
+text-align: center;
+}
+.DigitalCoomunication button:hover{
+  
+ background-color:  white;
+
+  color: var(--headingcolor);
+  border: 2px solid var(--headingcolor);
+  transition: 0.5;
+  
+  }
+/* 
+DMServices   */
+  .DMServicessection{
+margin-top: 100px;
+    background-image: url("../images/DMbackimg.png");
+    background-repeat: no-repeat;
+    background-position:  center;
+    background-size: cover;
+
+
+  }
+  .DMSrow{
+ 
+  
+   margin-top: 100px !important;
+    margin-left: 1px !important;
+  }
+  .DMServices{
+
+  }
+
+  .DMSrow h3{
+    
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    color: var(--headingcolor);
+   
+    line-height: 21.6px;
+
+  }
+  .DMSrow p{
+    
+    margin-top: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+    color: var(--headingcolor);
+  
+
+  }
+/* .DMServices{
+  background-image: url("../images/DMbackimg.png");
+  background-repeat: no-repeat;
+  background-position:  center;
+  background-size: cover;
+  padding:50px
+} */
+  /*   
+  .DMServicesContent{
+    background-image: url("../images/DMbackimg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    background-position: center;
+    z-index: -1;
+           
+  } */
+  
+  .DMSimg{
+  position: relative;
+  top:0;
+  bottom: 0;
+   
+  }
+  .dmsback1{
+  position:absolute;
+  top:150px;
+
+left: -250px !important;
+  opacity: 0.3;
+  z-index: 1;
+
+  }
+  
+  .dmsback2{
+    position:absolute;
+  
+  top:800px;
+  right:-50px;
+  
+ opacity: 0.3;
+  
+    }
+  
+  
+
+
+ 
+  .DMServicesheading{
+  
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+  }
+  .DMServicesheading h2{
+ 
+
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    
+    background:linear-gradient(to left,#f0a056 32%,#ec5c6b 68%) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   line-height: 52px;
+   font-weight: 800;
+   text-align: center;
+  
+  
+  }
+  .DMServicesheading h4{
+
+
+  text-align: center;
+    margin-top: 40px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    color: var(--headingcolor);
+  
+  }
+  .DMServicesheading p{
+   
+
+    margin-top: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+  text-align: center;
+    color: var(--headingcolor);
+  
+  }
+  
+  
+/* Affordable */
+
+.affordable{
+
+  margin-top: 90px;
+  
+}
+
+
+.affordablebtn .btn-blinked{
+width: 175px;
+background: var(--headingcolor);
+font-family: 'Rubik', sans-serif;
+font-weight: 500;
+padding:10px;
+color: white;
+border:none;
+border-radius: 10px;
+
+} 
+.affordablebtn .btn-blinked:hover{
+background-color: white;
+color:var(--headingcolor);
+border: 2px solid var(--headingcolor);
+transition: 0.5;
+    
+
+
+}
+.affordablebtn .btnplans{
+width: 175px;
+background-color: white;
+
+font-family: 'Rubik', sans-serif;
+font-weight: 500;
+padding:10px;
+color: var(--headingcolor);
+border:2px solid var(--headingcolor) ;
+border-radius: 10px;
+}
+.affordablebtn .btnplans:hover{
+  transition: 0.5;
+color: white;
+
+
+background-color: var(--headingcolor);
+  border:2px solid var(--headingcolor) ;
+
+  }
+
+.Affordableheading h3{
+ margin-top: 130px;
+  font-family: 'Rubik', sans-serif;
+  color: var(--headingcolor);
+  font-weight: 800;
+  font-size: 36px;
+}
+.Affordableheading p{
+ margin-top: 32px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.Affordabletabs .affordablecontent {
+
+  margin-top: 52px;
+  }
+
+
+/* col i jagha li ayga agar li rakhugi tou */
+
+
+
+
+.Affordabletabs li button{
+
+color: var(--headingcolor) !important;
+font-family: 'Rubik', sans-serif;
+font-weight: 500;
+text-transform: uppercase;
+background-color: white !important;
+border: 2px solid var(--headingcolor) !important;
+width: 172.94px;
+height: 50px;
+
+}
+
+.Affordabletabs li button:hover{
+
+  background: linear-gradient(to left ,#f0a056,#ec5c6b) !important;
+
+  color: white !important;
+  border:none !important;
+  transition: 0.3s;
+  
+  }
+  .Affordabletabs li  .active{
+    background: linear-gradient(to left ,#f0a056,#ec5c6b);
+
+    color: white !important;
+    border:none !important;
+
+    }
+
+/* affordable superblink */
+.SuperBlink{
+position: relative;
+}
+.affordableImg {
+position: relative;
+top: 0;
+bottom: 0;
+background-color: pink;
+
+}
+.affordableImg .affordableimg1{
+
+position:absolute;
+top:200px;
+
+}
+
+.affordableImg .affordableimg2{
+
+position:absolute;
+top:550px;
+z-index: -1;
+
+
+}
+
+.affordableImg .affordableimg3{
+  position:absolute;
+  
+  top: 10px;
+  right:-1px;
+  border: none;
+}
+
+
+.affordableImg .affordableimg4{
+  position:absolute;
+  top: 600px;
+  right:-1px;
+}
+.affordablepart1{
+  
+position: relative;
+top: 0;
+bottom: 0;
+}
+.affordablepart1 .affordableimg3{
+  position: absolute;
+  top: 350px;
+  left: -110px;
+  width: 121px;
+  height: 188px !important;
+}
+.affordablepart1 .affordableimg4{
+  position: absolute;
+ top: 600px;
+  left: -100px;
+  width: 121px;
+  height: 188px !important;
+}
+
+.affordablepart1 .affordableimg5{
+  position: absolute;
+  top: 600px;
+  right: -120px;
+  width: 121px;
+  height: 188px !important;
+
+}
+.affordablepart1 .affordableimg6{
+  position: absolute;
+  top: 400px;
+  z-index: -1;
+  right: -20px;
+  
+}
+
+
+.SuperBlinkrow p {
+
+font-size: 14px;
+font-family: 'Nunito', sans-serif;
+font-weight: 800;
+color: var(  --hovercolor);
+line-height: 20px;
+
+}
+.SuperBlinkrow ul {
+  list-style: none;
+} 
+.SuperBlinkrow ul li::before {
+  content: "\2022";
+  color: var(--hovercolor);
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+.SuperBlinkrow ul li {
+font-family: 'Rubik', sans-serif;
+font-weight: 500;
+line-height: 16px;
+
+
+color: var( --headingcolor);
+} 
+
+
+
+
+.SuperblinkBtn{
+
+margin-top: 350px !important;
+}
+.SuperblinkBtn .SuperblinkBtn1{
+border: 2px solid var(--headingcolor);
+background-color: white;
+color: var(--headingcolor);
+width: 231.81px;
+border-radius: 10px;
+font-family: 'Rubik', sans-serif;
+font-weight: 500;
+font-size: 14px;
+height: 50px;
+
+
+}
+
+.SuperblinkBtn .SuperblinkBtn1:hover{
+background-color: var(--headingcolor);
+color: white;
+transition: 0.3s;
+
+
+
+}
+.SuperblinkBtn .SuperblinkBtn2{
+
+
+width: 231.81px;
+border-radius: 10px;
+font-family: 'Rubik', sans-serif;
+font-weight: 500;
+font-size: 14px;
+background: linear-gradient(to left ,#f0a056,#ec5c6b);
+color: white;
+border:none;
+height: 50px;
+
+
+}
+
+.SuperblinkBtn .SuperblinkBtn2:hover{
+
+
+
+background: #ec5c6b;
+color: white;
+transition: 0.3s;
+
+
+
+}
+.SuperblinkBtn .SuperblinkBtn3{
+width: 231.81px;
+border-radius: 10px;
+font-family: 'Rubik', sans-serif;
+font-weight: 500;
+font-size: 14px;
+background-color: var(--headingcolor);
+color: white;
+border:none;
+height: 50px;
+
+}
+
+.SuperblinkBtn .SuperblinkBtn3:hover{
+
+background-color: white;
+color: var(--headingcolor);
+border:2px solid var(--headingcolor);
+transition: 0.3s;
+
+
+}
+/* whychoose */
+
+.whychoose {
+
+  margin-top: 50px;
+  background-color: #F8F8F8;
+ 
+}
+
+
+.whychooseleft h3 {
+ 
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+color: var(--headingcolor);
+font-size: 36px;
+
+
+}
+.whychooseleft p {
+ 
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+color: var(--headingcolor);
+font-size: 16px;
+text-align: left ;
+
+
+}
+.whyrow {
+
+  padding:50px;
+}
+
+
+
+/* footer */
+.Footer{
+
+  margin-top: 100px;
+   padding-left:50px;
+   padding-right: 50px;
+  
+}
+
+
+
+.Footer .footerrow1{
+  border-top: 1px solid #F8F8F8;
+  border-bottom: 1px solid #F8F8F8;
+}
+
+.Footermiddle ul{
+
+ list-style: none;
+}
+
+.Footermiddle ul li{
+ font-size: 14px;
+ font-family: 'Nunito', sans-serif;
+ font-weight: 600;
+ 
+ line-height: 24px;
+}
+
+.footerlinks{
+
+  padding:10px;
+  margin-top: 60px !important;
+}
+.footerlinks p{
+
+  font-size: 12px; 
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 16px;
+  text-align: left;
+  color: var(--headingcolor);
+}
+
+.footerlinks a{
+
+font-size: 14px;
+font-family: 'Rubik', sans-serif;
+color: var(--headingcolor);
+font-weight: 300;
+text-decoration: none;
+}
+.footerbtn button{
+  background: linear-gradient(to left ,#f0a056,#ec5c6b);
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-weight:700 ;
+}
+.footerend{
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--headingcolor);
+
+}
