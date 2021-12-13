@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/marketingblink/static/css/main.11154466.chunk.css",
-    "main.js": "/marketingblink/static/js/main.157c027f.chunk.js",
-    "main.js.map": "/marketingblink/static/js/main.157c027f.chunk.js.map",
+    "main.css": "/marketingblink/static/css/main.460397a7.chunk.css",
+    "main.js": "/marketingblink/static/js/main.260dec00.chunk.js",
+    "main.js.map": "/marketingblink/static/js/main.260dec00.chunk.js.map",
     "runtime-main.js": "/marketingblink/static/js/runtime-main.0646271c.js",
     "runtime-main.js.map": "/marketingblink/static/js/runtime-main.0646271c.js.map",
     "static/css/2.0a9ec390.chunk.css": "/marketingblink/static/css/2.0a9ec390.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.cd28a5d0.chunk.js.map": "/marketingblink/static/js/3.cd28a5d0.chunk.js.map",
     "index.html": "/marketingblink/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/marketingblink/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.11154466.chunk.css.map": "/marketingblink/static/css/main.11154466.chunk.css.map",
+    "static/css/main.460397a7.chunk.css.map": "/marketingblink/static/css/main.460397a7.chunk.css.map",
     "static/js/2.df6a3082.chunk.js.LICENSE.txt": "/marketingblink/static/js/2.df6a3082.chunk.js.LICENSE.txt",
     "static/media/App.css": "/marketingblink/static/media/socialmediabackimg.a2ceee6a.jpg",
     "static/media/affordablebackimg1.ae9bcefb.jpg": "/marketingblink/static/media/affordablebackimg1.ae9bcefb.jpg",
@@ -20,6 +20,7 @@
     "static/media/affordableman.c6892b86.png": "/marketingblink/static/media/affordableman.c6892b86.png",
     "static/media/bannergirl2.bb7200ac.jpg": "/marketingblink/static/media/bannergirl2.bb7200ac.jpg",
     "static/media/digitalcommimg.7c3cc5c8.png": "/marketingblink/static/media/digitalcommimg.7c3cc5c8.png",
+    "static/media/dmsback.0a399da8.jpg": "/marketingblink/static/media/dmsback.0a399da8.jpg",
     "static/media/logo.b22afc31.jpg": "/marketingblink/static/media/logo.b22afc31.jpg",
     "static/media/microsoft.ac9a720d.jpg": "/marketingblink/static/media/microsoft.ac9a720d.jpg",
     "static/media/superman1.32eecb32.jpg": "/marketingblink/static/media/superman1.32eecb32.jpg",
@@ -29,7 +30,7 @@
     "static/js/runtime-main.0646271c.js",
     "static/css/2.0a9ec390.chunk.css",
     "static/js/2.df6a3082.chunk.js",
-    "static/css/main.11154466.chunk.css",
-    "static/js/main.157c027f.chunk.js"
+    "static/css/main.460397a7.chunk.css",
+    "static/js/main.260dec00.chunk.js"
   ]
 }
