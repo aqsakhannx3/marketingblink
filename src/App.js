@@ -25,13 +25,13 @@ function App() {
      <Header/>
    <Logoslider/>
    <SocialMediaMarketing/>
-   <Workingwith/>
+   {/* <Workingwith/> */}
     <SeoStretagy/>
    <DigitalCoomunication/>
-   <DMServices/> 
+   {/* <DMServices/> 
    <Affordable/>
   <WhyChoose/>
-  <Footer/> 
+  <Footer/>  */}
   
    </Router>
    

@@ -6,12 +6,12 @@ const DigitalCoomunication = () => {
           
             <div className="container" >
 
-<div className="row DCcontent"  >
+<div className="row "  >
 
     <div className="col-md-6 DCleft" >
         <div className="DCleftcontent">
         <h3>Unlock the Power of 
-            <br/>
+            
             
              Digital Communication</h3>
         <p>

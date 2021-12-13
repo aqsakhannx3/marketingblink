@@ -38,7 +38,7 @@ const Workingwith = () => {
 </div>
 
 
-<div className="row   align-items-center    workingwithicons " style={{backgroundColor:"green"}}>
+<div className="row   align-items-center    workingwithicons " >
     <div className="col text-end" >
         <img src={google} />
     </div>

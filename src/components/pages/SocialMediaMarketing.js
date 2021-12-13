@@ -10,6 +10,7 @@ const SocialMediaMarketing = () => {
     <div className="col-md-6 socialmedialeft">
 
         <h3>Discover the Power of
+         
             Social Media Marketing</h3>
         <p>
             Even if you are offering a dedicated customer service, it will not always help you gain real insights into how your consumer thinks. To make your communication effective, you have to understand what your consumers prefer, and for that, social media is the key.

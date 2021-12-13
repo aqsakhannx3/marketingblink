@@ -1,45 +1,3 @@
-import React from 'react'
-import superman from "../images/superman1.jpg"
-import search from "../images/search.png"
-import SeoStrategyimg from "../images/SeoStrategyimg.jpg"
-
-const SeoStretagy = () => {
-    return (
-           <div className=" container-fluid SeoStrategy" >
-
-            
-<div className="container">
-
-<div className="row ">
-
-    <div className="col-md-6 SeoStrategyleft" >
-
-    <div className='SeoStrategyleftimg'>
-   <img src={superman}    /> 
-    </div>
-   
-    </div>
-   <div className="col-md-6  SeoStrategyright">
-
- <div className="SeoStrategyimg">
-
-               <img src={SeoStrategyimg} className="seoimg"/>
-              
-             </div>
-       <h4>Comprehensive SEO Strategy</h4>
-       <h3>
-      
-         Get Qualified Organic Leads
-         
-         </h3>
-       <p >
-
-       <span className="marketingblink">Marketing Blink </span>can help you boost your end result with an SEO strategy tailored to your brand thanks to our SEO experts. With our search engine optimization services, you can start attracting more quality search traffic to your website right away. Get qualified organic leads on Keywords that matter the most to your business.
-       </p>
-
-        {/* tabssection
-      */}
-
 <div className="row d-flex align-items-start align-items-center SeoStrategytabs ">
 <div style={{backgroundColor:"#fff" , boxShadow:"0 0 60px #EFF2F5",borderRadius:"24px"}} className="col nav flex-column    nav-pills " id="v-pills-tab" role="tablist" aria-orientation="vertical">
 
@@ -118,17 +76,3 @@ From link building to thorough backlink audit we provide off page services that 
  
 <button className="btn  SeoStrategybtn" style={{width:"269.87px",height:"50px"}}>Request Free SEO Audit</button>
 </div>
-
-       
-       
-       
-        </div>
-      
-</div>
-</div>
-             </div>
-
-     )
-}
-
-export default SeoStretagy
