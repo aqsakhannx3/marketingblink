@@ -7,8 +7,14 @@ const SeoStretagy = () => {
     return (
            <div className=" container-fluid SeoStrategy" >
 
-            
-<div className="container">
+
+
+
+
+
+
+
+  
 
 <div className="row ">
 
@@ -115,18 +121,18 @@ From link building to thorough backlink audit we provide off page services that 
 </div>
 
 </div>
- 
-<button className="btn  SeoStrategybtn" style={{width:"269.87px",height:"50px"}}>Request Free SEO Audit</button>
+
 </div>
 
-       
+        
+<button className="btn  SeoStrategybtn" >Request Free SEO Audit</button>
        
        
         </div>
       
 </div>
 </div>
-             </div>
+            
 
      )
 }
