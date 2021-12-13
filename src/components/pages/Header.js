@@ -42,7 +42,7 @@ const Header = () => {
         
         </div>
         <div className="col">
-        <input type="email" class="form-control" placeholder="Full Name" aria-label="Example text with button addon" aria-describedby="button-addon1"/>
+        <input type="email" class="form-control" placeholder="Email" aria-label="Example text with button addon" aria-describedby="button-addon1"/>
         <div className="dropdown show  dropdowninput  " >
   <a  className="btn  dropdown-toggle   " href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 SocialMedia
