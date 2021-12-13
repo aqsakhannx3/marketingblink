@@ -66,4 +66,23 @@ align-items: center;
    width: 300px !important;
    height: 50px;
   }
+
+  .Footermiddle ul{
+    text-align: center;
+    margin-top: 20px;
+   
+   }
+   .Footermiddle ul li{
+    text-align: center;
+   
+   
+   }
+   .footericons{
+       padding: 10px;
+      
+       text-align: center;
+   }
+   
+ 
+
   }

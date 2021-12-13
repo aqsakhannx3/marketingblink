@@ -26,19 +26,19 @@ const Footer = () => {
         <div className="container-fluid Footer">
         <div className="container ">
 
-            <div className="row gx-5 align-items-center footerrow1" >
+            <div className="row align-items-center footerrow1"  >
 
 
                 <div className="col-md-4 Footerleft " style={{borderRight:"1px solid #F8F8F8"}}>
 
-                    <img src={marketingblink} />
+                    <img src={marketingblink} className='w-100 h-100' />
                  
                 </div>
                 
 
                 
                 <div className="col-md-4 Footermiddle" style={{borderRight:"1px solid #F8F8F8"}}>
-                    <ul>
+                    <ul style={{textAlign:"left"}}>
 
                         <li>CONTACT DETAILS</li>
                         <li>+1-646-880-3043</li>
@@ -55,14 +55,14 @@ const Footer = () => {
                 </div>
                 <div className="col-md-4 footericons">
 
-                    <div className="d-flex " >
+                    <div className="d-flex align-items-center justify-content-center" >
                         <div >  <img src={fb} className="me-2" /></div>
                         <div> <img src={googleicon} className="me-2" /></div>
                         <div><img src={twittericon} className="me-2" /></div>
                         <div> <img src={instagramicon} className="me-2" /></div>
 
                     </div>
-                    <div className="mt-3 d-flex" >
+                    <div className="mt-3 d-flex align-items-center justify-content-center" >
 
                         <img src={visa} className="me-2" />
                         <img src={mastercard} className="me-2" />
@@ -73,7 +73,7 @@ const Footer = () => {
 
 
                     </div>
-                    <div className="mt-3 d-flex" >
+                    <div className="mt-3 d-flex align-items-center justify-content-center" >
 
                        
                         <img src={footerimg5} className="me-2" />

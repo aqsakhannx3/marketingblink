@@ -6,7 +6,7 @@ import DMSicon4 from "../images/DMSicon4.png"
 import dmsback1 from "../images/dmsback1.jpg"
 import dmsback2 from "../images/dmsback2.jpg"
 import DMbackimg from "../images/DMbackimg.png"
-
+import dmsback from "../images/dmsback.jpg"
 
 const DMServices = () => {
     return (
@@ -27,57 +27,45 @@ const DMServices = () => {
               </div>
     
 <div className="container" >
-              
+
+
+   <div className=' DMServicescontent'>
+
+   <h2  >Our Digital
+                         <br/>
+                         Marketing Services
+                     </h2>
+                     <h4>Now let’s talk business.</h4>
+                     <p>As a holistic internet marketing company, we offer a wide range of digital marketing solutions to help you achieve
+                         your marketing goals. From taking care of your digital presence, running successful Google campaigns, offering best SEO services to amping your current content marketing, we do it all and more. </p>
+   </div>
+     
+
             
-              <div className="row DMServices" >
-           
-                  <div className="col-md-12   DMServicesheading">
-                      <h2  >Our Digital
-                          <br />
-                          Marketing Services
-                      </h2>
-  
-                      <h4>Now let’s talk business.</h4>
-                      <p>As a holistic internet marketing company, we offer a wide range of digital marketing solutions to help you achieve
-                          your marketing goals. From taking care of your digital presence, running successful Google campaigns, offering best SEO services to amping your current content marketing, we do it all and more. </p>
-                  </div>
-  
-               <div  className="row DMSrow align-items-center justify-content-around ">
-               <div   className="row  justify-content-between" style={{marginBottom:"100px"}} >
+   <div  className="row DMSrow align-items-center justify-content-between DMServices">
 
-                   <div className='col-md-4' >
 
-                   <div className="d-flex " >
-            <div>
-            <h3 className='text-end'>Social Media Marketing</h3>
-            <p className='text-end'>We develop a holistic social media
-                              plan for your business across all
-                              social platforms and make your
-                              voice heard in the digital crowd.</p>
-            </div>
-           <div> <img src={DMSicon1} style={{marginLeft:"30px"}} /></div>
-            </div>
-            
-                   </div>
-                   <div className='col-md-4' >
+   <div className='col-md-4' style={{ paddingBottom:"70px"}} >
 
-<div className="d-flex ">
-<div> <img src={DMSicon2} style={{marginRight:"30px"}} /></div>
+
+<div className='col' style={{marginBottom:"100px"}}>
+
+<div className="d-flex "  >
 <div>
-<h3 className='text-left'>Google Paid Ads</h3>
-<p className='text-left' >We are Google ads certified and have
-the expertise to run successful paid advertising campaigns on Google to bring your target results.</p>
+<h3 className='text-end' >Social Media Marketing</h3>
+<p className='text-end'>We develop a holistic social media
+plan for your business across all
+social platforms and make your
+voice heard in the digital crowd.</p>
+</div>
+<div> <img src={DMSicon1}  style={{marginLeft:"30px"}}/></div>
 </div>
 
 </div>
 
-</div>
-               </div>
-               <div className="row  justify-content-between" >
+<div className='col'>
 
-<div className='col-md-4' >
-
-<div className="d-flex ">
+<div className="d-flex " >
 <div>
 <h3 className='text-end' >SEO Services</h3>
 <p className='text-end'>Better SEO means you have to
@@ -89,27 +77,50 @@ our efforts.</p>
 </div>
 
 </div>
-<div className='col-md-4'>
+</div>
+<div className='col-md-4' >
 
-<div className="d-flex ">
+
+    <div className='col' style={{marginBottom:"100px"}} >
+
+    <div className="d-flex " >
+    <div> <img src={DMSicon2} style={{marginRight:"30px"}} /></div>
+<div>
+<h3 className='text-left'>Google Paid Ads</h3>
+<p className='text-left' >We are Google ads certified and have
+the expertise to run successful paid advertising campaigns on Google to bring your target results.</p>
+</div>
+
+</div>
+
+    </div>
+
+    <div className='col'  >
+
+<div className="d-flex "  >
 <div> <img src={DMSicon4} style={{marginRight:"30px"}} /></div>
 <div>
-<h3 className='text-left'>Content Marketing
+<h3  className='text-left'>Content Marketing
 </h3>
 <p className='text-left' >We provide content that is
 strictly based on user intent. As
 part of content marketing strategy our team writes, edits, develops and promotes content that is search engine friendly.</p>
 </div>
 
+
 </div>
 
 </div>
 </div>
-               </div>
-               
+   
+
   
-              </div>
-             
+
+
+
+
+
+</div>
           </div>
 </div>
 

@@ -618,6 +618,8 @@ text-align: center;
 DMServices   */
   .DMServicessection{
 margin-top: 100px;
+padding:10px;
+
     background-image: url("../images/DMbackimg.png");
     background-repeat: no-repeat;
     background-position:  center;
@@ -636,6 +638,7 @@ margin-top: 100px;
   }
 
   .DMSrow h3{
+ 
     
     font-family: 'Nunito', sans-serif;
     font-weight: 800;
@@ -703,38 +706,48 @@ left: -250px !important;
   
 
 
+ .DMServicescontent{
+
+  padding: 10px;
+    text-align: center;
+ }
+
+ .DMServicescontent h2{
+  font-size: 48px;
+  font-family: 'Montserrat', sans-serif;
+  
+  background:linear-gradient(to left,#f0a056 32%,#ec5c6b 68%) ;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ line-height: 52px;
+ font-weight: 800;
+ }
+
+ .DMServicescontent p{
  
+
+  margin-top: 40px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+text-align: center;
+  color: var(--headingcolor);
+ 
+ }
+.DMServicescontent h4{
+
+  margin-top: 40px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  color: var(--headingcolor);
+}
   .DMServicesheading{
   
     padding-left: 100px !important;
     padding-right: 100px !important;
   }
-  .DMServicesheading h2{
- 
-
-    font-size: 48px;
-    font-family: 'Montserrat', sans-serif;
-    
-    background:linear-gradient(to left,#f0a056 32%,#ec5c6b 68%) ;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-   line-height: 52px;
-   font-weight: 800;
-   text-align: center;
-  
-  
-  }
-  .DMServicesheading h4{
 
 
-  text-align: center;
-    margin-top: 40px;
-    font-family: 'Nunito', sans-serif;
-    font-size: 36px;
-    font-weight: 800;
-    color: var(--headingcolor);
-  
-  }
   .DMServicesheading p{
    
 
@@ -1043,8 +1056,11 @@ transition: 0.3s;
 
   margin-top: 50px;
   background-color: #F8F8F8;
+  padding-left: 50px;
+  padding-right: 50px;
  
 }
+
 
 
 .whychooseleft h3 {
@@ -1068,7 +1084,6 @@ text-align: left ;
 }
 .whyrow {
 
-  padding:50px;
 }
 
 
