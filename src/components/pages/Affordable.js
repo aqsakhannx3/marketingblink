@@ -43,7 +43,7 @@ const Affordable = () => {
 <img src={affordableimg6} className="affordableimg6" />
       </div>
 
-                <ul class="align-items-center justify-content-evenly nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <ul class="align-items-center justify-content-around nav nav-pills mb-3" id="pills-tab" role="tablist">
   <li class="nav-item" role="presentation">
     <button class="nav-link active" id="pills-smm-tab" data-bs-toggle="pill" data-bs-target="#pills-smm" type="button" role="tab" aria-controls="pills-home" aria-selected="true">SMM</button>
   </li>
@@ -65,27 +65,22 @@ const Affordable = () => {
 
 <div className=" align-items-center  justify-content-center affordablecontent tab-content " id="pills-tabContent">
   <div  class="tab-pane fade show active" id="pills-smm" role="tabpanel" aria-labelledby="pills-smm-tab">
-  <SuperBlink/>
+      
+    <SuperBlink/>
+
+      
   </div>
   <div class="tab-pane fade" id="pills-seo" role="tabpanel" aria-labelledby="pills-seo-tab">
-               <div className='container'>
-                   <div className='row align-items-center justify-content-center'>
-                   <SuperBlink/>
-                   </div>
-               </div>
+  <SuperBlink/>
   </div>
   <div class="tab-pane fade" id="pills-superblink" role="tabpanel" aria-labelledby="pills-superblink-tab">
-        <SuperBlink/>
+  <SuperBlink/>
   </div>
   <div class="tab-pane fade" id="pills-sem" role="tabpanel" aria-labelledby="pills-sem-tab">
-  <p>
   <SuperBlink/>
-</p>
   </div>
   <div class="tab-pane fade" id="pills-content" role="tabpanel" aria-labelledby="pills-content-tab">
-  <p>
   <SuperBlink/>
-</p>
   </div>
 </div>
                 </div>

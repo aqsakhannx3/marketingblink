@@ -6,17 +6,16 @@ import affordableimg2 from "../../images/affordableimg2.jpg"
 const SuperBlink = () => {
     return (
       
-        <div className="container SuperBlink " style={{width:""}} >
-
+<section className='SuperBlink' >
         <div className="affordableImg">
 
             
   <img src={affordableimg1} className="affordableimg1"/>
   <img src={affordableimg2} className="affordableimg2"/>
-    <img src={svgiconmain} className="affordableimg3" />
-    <img src={affordableman} className="affordableimg4"/>
+    {/* <img src={svgiconmain} className="affordableimg3" /> */}
+    {/* <img src={affordableman} className="affordableimg4"/> */}
         </div>
-    <div className="row   SuperBlinkrow "  style={{boxShadow:"2.51px 47.93px 60px #DBDBDB"}}>
+    <div className="row    SuperBlinkrow justify-content-around "  >
 
            
 
@@ -166,17 +165,19 @@ International PPC campaign management <span>(English only campaigns)</span>
         </div>
              
 
-        <div className="col-md-4   SuperblinkBtn text-end " >
+        <div className="col-md-4    " >
 
            
-            {/* <img src={svgiconmain} className="w-100 text-end" style={{marginRight:"-12px"}}/> */}
-                 <div  className="d-flex  flex-column align-items-center justify-content-center " style={{marginTop:"30px"}}>
-                 <button  className=" SuperblinkBtn1 btn  mt-3" style={{marginTop:"100px"}}>000-123-456</button>
-                 <button className=" SuperblinkBtn2  btn btn-primary mt-3" >LIVE CHAT</button>
-                 <button className="SuperblinkBtn3 btn btn-primary mt-3">START PROJECT NOW</button>
-      
+            <img src={svgiconmain} className='svgimg'  />
+                
+                 <div className='SuperblinkBtn d-flex flex-column align-items-center justify-content-center'>
+                 <button  className=" SuperblinkBtn1 btn " >000-123-456</button>
+                 <button className=" SuperblinkBtn2  btn  " >LIVE CHAT</button>
+                 <button className="SuperblinkBtn3 btn ">START PROJECT NOW</button>
                  </div>
-                 {/* <img src={affordableman} style={{overflow:"hidden",width:"100%"}}/> */}
+      
+               
+                 <img src={affordableman} className='svgman'/>
 
 {/* <img src={svgicon}/> */}
 
@@ -186,22 +187,10 @@ International PPC campaign management <span>(English only campaigns)</span>
       
 
         </div>
-        <div className="col-md-4 ">
-      
-               
-      
-
-    
-      
-                 
-      
-               
-                    
-      
-                      </div>
+     
 
     </div>
-</div>
+    </section>
                 
            
         

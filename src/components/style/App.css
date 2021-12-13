@@ -7,6 +7,7 @@
  margin: 0;
  padding :0;
  box-sizing: border-box;
+ 
 
  
 }
@@ -845,6 +846,8 @@ border: 2px solid var(--headingcolor) !important;
 width: 172.94px;
 height: 50px;
 
+
+
 }
 
 .Affordabletabs li button:hover{
@@ -885,7 +888,7 @@ top:200px;
 .affordableImg .affordableimg2{
 
 position:absolute;
-top:550px;
+top:540px;
 z-index: -1;
 
 
@@ -977,8 +980,15 @@ color: var( --headingcolor);
 
 .SuperblinkBtn{
 
-margin-top: 350px !important;
+/* margin-top: 350px !important; */
+margin-top: 100px !important;
+
 }
+
+.SuperblinkBtn button{
+ 
+  margin-bottom: 20px;
+  }
 .SuperblinkBtn .SuperblinkBtn1{
 border: 2px solid var(--headingcolor);
 background-color: white;
@@ -1054,7 +1064,7 @@ transition: 0.3s;
 
 .whychoose {
 
-  margin-top: 50px;
+  margin-top: 100px;
   background-color: #F8F8F8;
   padding-left: 50px;
   padding-right: 50px;

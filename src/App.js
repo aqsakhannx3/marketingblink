@@ -30,8 +30,8 @@ function App() {
    <DigitalCoomunication/>
    <DMServices/> 
    <Affordable/>
-  <WhyChoose/>
-  <Footer/> 
+  <WhyChoose/> 
+ <Footer/> 
   
    </Router>
    

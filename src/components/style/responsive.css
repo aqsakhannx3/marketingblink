@@ -82,7 +82,28 @@ align-items: center;
       
        text-align: center;
    }
-   
- 
+  .svgimg{
+      width:300px !important;
+  }
+.svgman{
+    width: 300px !important;
+  
+} 
+.affordableImg .affordableimg2{
 
+    position:absolute;
+    top:1650px !important;
+    z-index: -1;
+    
+    
+    }
+
+    
+
+.Affordabletabs li button{
+
+    background-clip: red !important;
+    
+    
+    }
   }
