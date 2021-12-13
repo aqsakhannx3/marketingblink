@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/marketingblink/static/css/main.460397a7.chunk.css",
-    "main.js": "/marketingblink/static/js/main.260dec00.chunk.js",
-    "main.js.map": "/marketingblink/static/js/main.260dec00.chunk.js.map",
+    "main.css": "/marketingblink/static/css/main.de96db38.chunk.css",
+    "main.js": "/marketingblink/static/js/main.8182b816.chunk.js",
+    "main.js.map": "/marketingblink/static/js/main.8182b816.chunk.js.map",
     "runtime-main.js": "/marketingblink/static/js/runtime-main.0646271c.js",
     "runtime-main.js.map": "/marketingblink/static/js/runtime-main.0646271c.js.map",
     "static/css/2.0a9ec390.chunk.css": "/marketingblink/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.df6a3082.chunk.js": "/marketingblink/static/js/2.df6a3082.chunk.js",
-    "static/js/2.df6a3082.chunk.js.map": "/marketingblink/static/js/2.df6a3082.chunk.js.map",
+    "static/js/2.ab5b85d0.chunk.js": "/marketingblink/static/js/2.ab5b85d0.chunk.js",
+    "static/js/2.ab5b85d0.chunk.js.map": "/marketingblink/static/js/2.ab5b85d0.chunk.js.map",
     "static/js/3.cd28a5d0.chunk.js": "/marketingblink/static/js/3.cd28a5d0.chunk.js",
     "static/js/3.cd28a5d0.chunk.js.map": "/marketingblink/static/js/3.cd28a5d0.chunk.js.map",
     "index.html": "/marketingblink/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/marketingblink/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.460397a7.chunk.css.map": "/marketingblink/static/css/main.460397a7.chunk.css.map",
-    "static/js/2.df6a3082.chunk.js.LICENSE.txt": "/marketingblink/static/js/2.df6a3082.chunk.js.LICENSE.txt",
+    "static/css/main.de96db38.chunk.css.map": "/marketingblink/static/css/main.de96db38.chunk.css.map",
+    "static/js/2.ab5b85d0.chunk.js.LICENSE.txt": "/marketingblink/static/js/2.ab5b85d0.chunk.js.LICENSE.txt",
     "static/media/App.css": "/marketingblink/static/media/socialmediabackimg.a2ceee6a.jpg",
     "static/media/affordablebackimg1.ae9bcefb.jpg": "/marketingblink/static/media/affordablebackimg1.ae9bcefb.jpg",
     "static/media/affordableimg2.2832374e.jpg": "/marketingblink/static/media/affordableimg2.2832374e.jpg",
@@ -29,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.0646271c.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.df6a3082.chunk.js",
-    "static/css/main.460397a7.chunk.css",
-    "static/js/main.260dec00.chunk.js"
+    "static/js/2.ab5b85d0.chunk.js",
+    "static/css/main.de96db38.chunk.css",
+    "static/js/main.8182b816.chunk.js"
   ]
 }
