@@ -3,8 +3,21 @@ import trustpilot from "../images/trustpilot.jpg"
 import google from "../images/google.jpg"
 import bark from "../images/bark.jpg"
 import clutch from "../images/clutch.jpg"
+
 const Logoslider = () => {
+   
     return (
+
+
+     
+  
+
+
+
+      
+     
+
+
        <div className="container-fluid" >
 
            <div className="container"  >
