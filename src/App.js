@@ -13,7 +13,7 @@ import Affordable from "./components/pages/Affordable"
 import  WhyChoose from "./components/pages/WhyChoose"
 import SMmarketing from './components/pages/SMmarketing';
 import Footer from "./components/pages/Footer"
-import SEO from './components/pages/SEO';
+
 function App() {
   return (
     <div className="App">
@@ -29,7 +29,7 @@ function App() {
  <SMmarketing/>
    <Workingwith/>
    <SeoStretagy/>
-   {/* <SEO/> */}
+  
    <DigitalCoomunication/>
    <DMServices/>
 <Affordable/>

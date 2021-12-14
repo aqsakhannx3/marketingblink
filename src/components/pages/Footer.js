@@ -499,14 +499,17 @@ const Footer = () => {
                             Washington DC</Link>
                     </div>
 
+<div className='footerimg ' style={{ marginTop: "52px" }}>
 
-                    <div style={{ marginTop: "52px" }}>
+    
+<div >
                         <img src={googlepartner} />
                     </div>
-                    <div style={{ marginTop: "28px" }}>
+                    <div style={{ marginTop: "30px" }} >
                         <img src={dmimage} />
                     </div>
 
+</div>
 
 
 
@@ -518,7 +521,7 @@ const Footer = () => {
             <div className="row mt-3"  >
                 <div className="col-md-12 text-end footerbtn">
 
-                    <button className="btn" style={{ width: "287.64px", borderRadius: "21.27px" }}>50% off* on your new order<img className="ms-2" src={chaticon} /></button>
+                    <button className="btn" style={{ width: "287px", borderRadius: "21.27px" }}>50% off* on your new order<img className="ms-2" src={chaticon} /></button>
                 </div>
             </div>
             <div className="row footerend">

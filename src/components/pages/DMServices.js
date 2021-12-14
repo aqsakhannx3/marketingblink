@@ -3,7 +3,7 @@ import DMSicon1 from "../images/DMSicon1.png"
 import DMSicon3 from "../images/DMSicon3.png"
 import DMSicon2 from "../images/DMSicon2.png"
 import DMSicon4 from "../images/DMSicon4.png"
-import "../style/dmsresponsive.css"
+
 
 
 const DMServices = () => {
