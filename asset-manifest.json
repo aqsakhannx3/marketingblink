@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/marketingblink/static/css/main.739fd8f6.chunk.css",
-    "main.js": "/marketingblink/static/js/main.c88a8d20.chunk.js",
-    "main.js.map": "/marketingblink/static/js/main.c88a8d20.chunk.js.map",
-    "runtime-main.js": "/marketingblink/static/js/runtime-main.ebc8bf46.js",
-    "runtime-main.js.map": "/marketingblink/static/js/runtime-main.ebc8bf46.js.map",
+    "main.css": "/marketingblink/static/css/main.0a1c56c5.chunk.css",
+    "main.js": "/marketingblink/static/js/main.ccb3b265.chunk.js",
+    "main.js.map": "/marketingblink/static/js/main.ccb3b265.chunk.js.map",
+    "runtime-main.js": "/marketingblink/static/js/runtime-main.0b13e3ba.js",
+    "runtime-main.js.map": "/marketingblink/static/js/runtime-main.0b13e3ba.js.map",
     "static/css/2.0a9ec390.chunk.css": "/marketingblink/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.d4b1cb99.chunk.js": "/marketingblink/static/js/2.d4b1cb99.chunk.js",
-    "static/js/2.d4b1cb99.chunk.js.map": "/marketingblink/static/js/2.d4b1cb99.chunk.js.map",
-    "static/js/3.b5daa17a.chunk.js": "/marketingblink/static/js/3.b5daa17a.chunk.js",
-    "static/js/3.b5daa17a.chunk.js.map": "/marketingblink/static/js/3.b5daa17a.chunk.js.map",
+    "static/js/2.5001d4b8.chunk.js": "/marketingblink/static/js/2.5001d4b8.chunk.js",
+    "static/js/2.5001d4b8.chunk.js.map": "/marketingblink/static/js/2.5001d4b8.chunk.js.map",
+    "static/js/3.bf24bfbd.chunk.js": "/marketingblink/static/js/3.bf24bfbd.chunk.js",
+    "static/js/3.bf24bfbd.chunk.js.map": "/marketingblink/static/js/3.bf24bfbd.chunk.js.map",
     "index.html": "/marketingblink/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/marketingblink/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.739fd8f6.chunk.css.map": "/marketingblink/static/css/main.739fd8f6.chunk.css.map",
-    "static/js/2.d4b1cb99.chunk.js.LICENSE.txt": "/marketingblink/static/js/2.d4b1cb99.chunk.js.LICENSE.txt",
+    "static/css/main.0a1c56c5.chunk.css.map": "/marketingblink/static/css/main.0a1c56c5.chunk.css.map",
+    "static/js/2.5001d4b8.chunk.js.LICENSE.txt": "/marketingblink/static/js/2.5001d4b8.chunk.js.LICENSE.txt",
     "static/media/App.css": "/marketingblink/static/media/digitalcommback.b8d88ccb.png",
     "static/media/affordablebackimg1.ae9bcefb.jpg": "/marketingblink/static/media/affordablebackimg1.ae9bcefb.jpg",
     "static/media/affordableimg2.2832374e.jpg": "/marketingblink/static/media/affordableimg2.2832374e.jpg",
@@ -27,10 +27,10 @@
     "static/media/whychooseman.2e40a0cf.png": "/marketingblink/static/media/whychooseman.2e40a0cf.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ebc8bf46.js",
+    "static/js/runtime-main.0b13e3ba.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.d4b1cb99.chunk.js",
-    "static/css/main.739fd8f6.chunk.css",
-    "static/js/main.c88a8d20.chunk.js"
+    "static/js/2.5001d4b8.chunk.js",
+    "static/css/main.0a1c56c5.chunk.css",
+    "static/js/main.ccb3b265.chunk.js"
   ]
 }
