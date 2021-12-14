@@ -32,7 +32,7 @@ function App() {
    {/* <SEO/> */}
    <DigitalCoomunication/>
    <DMServices/>
-{/* <Affordable/> */}
+<Affordable/>
    <WhyChoose/> 
    <Footer/>  
    </Router>

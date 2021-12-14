@@ -5,19 +5,21 @@ import affordableimg4 from "../images/affordableimg4.jpg"
 import affordableimg5 from "../images/affordableimg7.png"
 import affordableimg6 from "../images/affordableimg6.png"
 
-
+import "../style/affordablere.css"
 
 const Affordable = () => {
     return (
          <div className="container-fluid  affordable"    >
               <div className="affordablepart1">
-
-      
-<img src={affordableimg3} className="affordableimg3" />
+              <img src={affordableimg3} className="affordableimg3"  />
+              <img src={affordableimg4} className="affordableimg4" />
+              <img src={affordableimg5} className="affordableimg5" style={{width:"50px",height:"50px"}} />
+{/*       
+<img src={affordableimg3} className="affordableimg3"  />
 <img src={affordableimg4} className="affordableimg4" />
 
  <img src={affordableimg5} className="affordableimg5" style={{width:"50px",height:"50px"}} />
-<img src={affordableimg6} className="affordableimg6" /> 
+<img src={affordableimg6} className="affordableimg6" />  */}
 </div> 
        <div className=" container"   >
           

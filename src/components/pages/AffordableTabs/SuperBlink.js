@@ -19,7 +19,7 @@ const SuperBlink = () => {
            
 
 
-        <div className="col-md-4" style={{  paddingTop:"56px",paddingBottom:"56px",paddingLeft:"66px"}} >
+        <div className="col-md-4" style={{  paddingTop:"56px",paddingBottom:"56px",paddingLeft:"55px"}} >
 
 
             <p>Social Media Services</p>
@@ -97,7 +97,7 @@ const SuperBlink = () => {
 
         </div>
 
-        <div className="col-md-4" style={{paddingTop:"56px",paddingBottom:"56px",paddingLeft:"66px"}}>
+        <div className="col-md-4" style={{paddingTop:"56px",paddingBottom:"56px",paddingLeft:"50px"}}>
 
             <p>SEO Services</p>
             <ul>
