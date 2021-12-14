@@ -1,12 +1,13 @@
 @import url("./colors.css");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Nunito:wght@600;700;800&family=Rubik:wght@300;400;500;600;700&display=swap');
-@import url("./responsive.css");
+/* @import url("./responsive.css"); */
 @import url("./Header.css");
 
 *{
  margin: 0;
  padding :0;
  box-sizing: border-box;
+
  
 
  
@@ -99,246 +100,6 @@
     
     
 
-/* socialmediamarketing */
-.socialmedia{
-
-  margin-top: 70px;
-
-  padding-left: 50px;
-  padding-right: 50px;
- 
-  background-image: url("../images/socialmediabackimg.jpg");
-}
-
-.socialmedialeft{
-
- padding: 30px;
-
-}
-.socialmedialeft h3{
-  width: 420px;
-
-  font-family: 'Nunito', sans-serif;
-  font-size: 36px;
-  font-weight: 800;
-  line-height: 43.2px;
-  color: var( --headingcolor);
-  text-align: left;
-
-}
-.socialmedialeft p{
-  color: var( --headingcolor);
-  text-align: left;
-  font-family: 'Rubik', sans-serif;
-  font-size: 16px;
-  margin-top: 50px;
-
-
-}
-.SMMbtn{
-  
-  margin-top: 40px;;
-}
-
-.SMMbtn button{
-width: 172.94px;
-height: 50px;
-font-family: 'Rubik', sans-serif;
-  font-weight: 500;
-  border-radius: 10px;
-  border: none;
-  line-height: 16.8px;
-  text-transform: uppercase;
-
-}
-.SMMbtn .SMMbtn1{
-  background: linear-gradient(to left,#f0a056 ,#ec5c6b);
-
-  
-  color: white; 
-
-}
-
-.SMMbtn .SMMbtn1:hover{
-  background: #ec5c6b;
-  color:white;
-  transition: 0.3;;
-}
-
-.SMMbtn .SMMbtn2{
-  background: var(--headingcolor);
-  color: white;
-  margin-left: 20px;
- 
-}
-.SMMbtn .SMMbtn2:hover{
-  background: white;
-  border:2px solid var(--headingcolor); 
-  color: var(--headingcolor);
-  border: 2px solid var(--headingcolor);
- 
-}
-
-
-.SMMcol{
-  
-  margin-bottom: 25px;
-
-
-}
-.SMMcol .card{
- 
-  padding:20px !important;
-  border-radius: 24px;
-  width: 263.03px;
-     box-shadow: 0px 0px 60px #EFF2F5;
-  height: 224.23px;
-}
-
-.SMMcol .card h4{
-  margin-left: 10px ;
-  font-family: 'Rubik', sans-serif;
-  color: var(--headingcolor);
-  font-size: 18px;
-  line-height: 21.6px;
-  font-weight: 600;
-
-  text-align: left;
-  
- margin-top: 5px;
-
-}
-
-.SMMcol .card p{
-  font-family: 'Rubik', sans-serif;
-  font-weight: 400;
-  color: var(--headingcolor);
-  font-size: 14px;
-  line-height: 16.8px;
-  text-align: left;
-  padding-top:15px;
-  padding-bottom: 15px;
-
-}
-.SMMcol .SMM .SMMimg{
-  background-image: url("../images/groupcontactorangepng.png") !important;
- 
-    background-repeat: no-repeat;
-  background-size: contain;
-}
-.SMMcol .SMM:hover .SMMimg{
-  background-image: url("../images/groupcontactwhitepng.png") !important;
- 
-    background-repeat: no-repeat;
-  background-size: contain;
-}
-.SMMcol .SMM:hover h4 {
-  color: white;
-}
-.SMMcol .SMM:hover  p{
-  color: white;
-}
-.SMMcol .SMM:hover {
-background-color: #E25C43;
-
-}
-.SMScol .SMS:hover h4 {
-  color: white;
-}
-.SMMcol .SMS:hover  p{
-  color: white;
-}
-.SMMcol .SMS:hover {
-background-color:  #28cfe8
-
-}
-/* COL2 */
-
-
-
-.SMMcol .SMS .SMSimg{
-  background-image: url("../images/chess.png") !important;
- 
-    background-repeat: no-repeat;
-  background-size: contain;
-}
-.SMMcol .SMS:hover .SMSimg{
-  background-image: url("../images/chesswhite.png") !important;
- 
-    background-repeat: no-repeat;
-  background-size: contain;
-}
-.SMMcol .SMS:hover h4 {
-  color: white ;
-}
-.SMMcol .SMS:hover  p{
-  color: white ;
-}
-.SMScol .SMS:hover {
-  background-color: #28cfe8 ;
-        transition: 0.5s;
-
-}
-
-/* COL3 */
-
-
-.SMMcol .SMC .SMCimg{
-  background-image: url("../images/speaker.png") !important;
- 
-    background-repeat: no-repeat;
-  background-size: contain;
-}
-.SMMcol .SMC:hover .SMCimg{
-  background-image: url("../images/speakerwhite.png") !important;
- 
-    background-repeat: no-repeat;
-  background-size: contain;
-}
-.SMMcol .SMC:hover h4 {
-  color: white;
-}
-.SMMcol .SMC:hover  p{
-  color: white;
-}
-.SMMcol .SMC:hover {
-  background-color: #84c200;
-  transition: 0.5s;
-
-}
-
-/* COL4 */
-
-
-.SMMcol .CSS .CSSimg{
-  background-image: url("../images/profile.png") !important;
-margin-top: 10px;
- 
-    background-repeat: no-repeat;
-  background-size: contain;
-}
-.SMMcol .CSS:hover .CSSimg{
-  background-image: url("../images/profilewhite.png") !important;
- 
-    background-repeat: no-repeat;
-  background-size: contain;
-}
-.SMMcol .CSS:hover h4 {
-  color: white;
-}
-.SMMcol .CSS:hover  p{
-  color: white;
-}
-.SMMcol .CSS:hover {
-  background-color: #9929ea;
-               
-                transition: 0.5s;
-
-
-
-
-
-}
 
 
 
@@ -692,8 +453,8 @@ padding:10px;
   }
   .dmsback1{
   position:absolute;
-  top:150px;
-
+  top:130px;
+  width: 500px;
 left: -250px !important;
   opacity: 0.3;
   z-index: 1;
@@ -702,10 +463,10 @@ left: -250px !important;
   
   .dmsback2{
     position:absolute;
-  
-  top:800px;
-  right:-50px;
-  
+  width: 200px;
+  top:650px;
+  right:-10px;
+ 
  opacity: 0.3;
   
     }
@@ -1083,8 +844,8 @@ transition: 0.3s;
 
   margin-top: 100px;
   background-color: #F8F8F8;
-  padding-left: 50px;
-  padding-right: 50px;
+  /* padding-left: 50px;
+  padding-right: 50px; */
  
 }
 
@@ -1109,10 +870,10 @@ text-align: left ;
 
 
 }
-.whyrow {
+/* .whyrow {
   padding:20px;
 
-}
+} */
 
 
 

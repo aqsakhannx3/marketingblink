@@ -8,14 +8,10 @@ const SeoStretagy = () => {
            <div className=" container-fluid SeoStrategy" >
 
 
+                 <div className='container'>
 
 
-
-
-
-
-  
-
+                   
 <div className="row ">
 
     <div className="col-md-6 SeoStrategyleft" >
@@ -131,6 +127,14 @@ From link building to thorough backlink audit we provide off page services that 
         </div>
       
 </div>
+                 </div>
+
+
+
+
+
+  
+
 </div>
             
 

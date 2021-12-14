@@ -11,7 +11,9 @@ import DigitalCoomunication from './components/pages/DigitalCoomunication';
 import DMServices from './components/pages/DMServices';
 import Affordable from "./components/pages/Affordable"
 import  WhyChoose from "./components/pages/WhyChoose"
+import SMmarketing from './components/pages/SMmarketing';
 import Footer from "./components/pages/Footer"
+import SEO from './components/pages/SEO';
 function App() {
   return (
     <div className="App">
@@ -22,17 +24,17 @@ function App() {
 
      </Routes>
      <Navbar/>
-     <Header/>
+   <Header/>
    <Logoslider/>
-   <SocialMediaMarketing/>
+ <SMmarketing/>
    <Workingwith/>
-    <SeoStretagy/>
+   {/* <SeoStretagy/> */}
+   {/* <SEO/> */}
    <DigitalCoomunication/>
-   <DMServices/> 
-   <Affordable/>
-  <WhyChoose/> 
- <Footer/> 
-  
+   <DMServices/>
+
+   <WhyChoose/> 
+   <Footer/>  
    </Router>
    
     </div>

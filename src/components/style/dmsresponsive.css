@@ -1,0 +1,25 @@
+@media screen and (max-width: 360px) {
+
+    .DMServicessection{
+        
+        
+        background-image: none !important;
+        
+    
+      }
+
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .DMServicessection{
+        
+        
+        background-image: none !important;
+        
+    
+      }
+
+
+}
