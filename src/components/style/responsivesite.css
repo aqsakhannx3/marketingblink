@@ -26,6 +26,10 @@
           margin-top: 15px;
          
       }
+
+/* workingwith */
+
+
     .header-icons ul{
         
         margin-right: 25px;
@@ -130,6 +134,7 @@
      
        
     }
+
 
    .DMServicessection{
      
@@ -270,18 +275,7 @@
 
 }
 
-@media screen and (max-width: 480px) {
 
-    .DMServicessection{
-        
-        
-        background-image: none !important;
-        
-    
-      }
-
-
-}
 
 @media screen and (max-width:600px) {
 

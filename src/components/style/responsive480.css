@@ -1,0 +1,57 @@
+@media screen and (min-width:360px) and (max-width: 480px) {
+
+    .Header{
+        background-color: red;
+    }
+    .headerleft{
+        background-color: blue;
+        width: 100%;
+    }
+    .HeaderInput input{
+     
+        width: 400px  !important;
+    
+    
+      }
+      .headerleft img{
+        width:100%;
+        height: 100vh;
+       }
+   .HeaderInput .dropdowninput{
+
+   width: 400px  !important;
+   }
+
+   .HeaderInput .btnrequest{
+       margin-top: 20px;
+       margin-bottom: 20px;
+   
+    width: 400px  !important;
+    }
+
+    .HeaderInput .btnlive{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    
+     width: 400px  !important;
+     }
+    
+
+
+     .dropdowninput .dropdown-toggle::after {
+      
+        text-align: right;
+         color: var(--hovercolor);
+         margin-left: 280px  !important;
+       
+       }
+        .DMServicessection{
+            
+            
+            background-image: none !important;
+            
+        
+          }
+    
+    
+    }

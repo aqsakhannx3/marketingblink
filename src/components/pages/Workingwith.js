@@ -18,11 +18,11 @@ const Workingwith = () => {
 
 
 
-            <div className="container-fluid workingwith">
+            <div className="container-fluid workingwith" >
 
 
 
-                <div className='container workingwithcontainer'>
+                <div className='container workingwithcontainer' >
 
                   <div className='workingwithtext' >
 
@@ -31,7 +31,7 @@ const Workingwith = () => {
 
 
 
-                  <div className='logo-slider'>
+                  <div className='logo-slider align-items-center' >
 
 
                   <div class="item">

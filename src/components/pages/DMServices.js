@@ -3,14 +3,15 @@ import DMSicon1 from "../images/DMSicon1.png"
 import DMSicon3 from "../images/DMSicon3.png"
 import DMSicon2 from "../images/DMSicon2.png"
 import DMSicon4 from "../images/DMSicon4.png"
+// import dmsback from "../images/DMbackimg.png"
 
 
 
 const DMServices = () => {
     return (
+<div className='container'>
 
-
-<div className='container DMServicessection'>
+<div className='DMServicessection'>
 <div className="DMSimg">
                  
                   <svg className="dmsback1" xmlns="http://www.w3.org/2000/svg" width="644.543" height="306.665" viewBox="0 0 644.543 306.665">
@@ -44,7 +45,7 @@ const DMServices = () => {
             <div className='col-md-4' style={{ paddingBottom:"70px"}} >
 
 
-<div className='col' style={{marginBottom:"100px"}}>
+<div className='col-md-12' style={{marginBottom:"100px"}}>
 
 <div className="d-flex "  >
 <div>
@@ -59,7 +60,7 @@ voice heard in the digital crowd.</p>
 
 </div>
 
-<div className='col'>
+<div className='col-md-12'>
 
 <div className="d-flex " >
 <div>
@@ -75,11 +76,15 @@ our efforts.</p>
 </div>
 </div>
 
+<div className='col-md-4 dmsimg ' >
 
+
+  
+</div>
 <div className='col-md-4' >
 
 
-    <div className='col' style={{marginBottom:"100px"}} >
+    <div className='col-md-12' style={{marginBottom:"100px"}} >
 
     <div className="d-flex " >
     <div> <img src={DMSicon2} style={{marginRight:"30px"}} /></div>
@@ -93,7 +98,7 @@ the expertise to run successful paid advertising campaigns on Google to bring yo
 
     </div>
 
-    <div className='col'  >
+    <div className='col-md-12'  >
 
 <div className="d-flex "  >
 <div> <img src={DMSicon4} style={{marginRight:"30px"}} /></div>
@@ -114,7 +119,7 @@ part of content marketing strategy our team writes, edits, develops and promotes
 
 
             </div>
-
+            </div>
 </div>
 
     )
