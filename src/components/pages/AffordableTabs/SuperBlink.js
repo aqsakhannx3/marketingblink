@@ -6,14 +6,13 @@ import affordableimg2 from "../../images/affordableimg2.jpg"
 const SuperBlink = () => {
     return (
       
-<section className='SuperBlink' >
+<section className='SuperBlink'  style={{boxShadow:"1px 4px 80px #dbdbdb"}} >
         <div className="affordableImg">
 
             
   <img src={affordableimg1} className="affordableimg1"/>
   <img src={affordableimg2} className="affordableimg2"/>
-    {/* <img src={svgiconmain} className="affordableimg3" /> */}
-    {/* <img src={affordableman} className="affordableimg4"/> */}
+    
         </div>
     <div className="row    SuperBlinkrow justify-content-around "  >
 
@@ -165,10 +164,10 @@ International PPC campaign management <span>(English only campaigns)</span>
         </div>
              
 
-        <div className="col-md-4    " >
+        <div className="col-md-4  "  >
 
            
-            <img src={svgiconmain} className='svgimg'  />
+            <img src={svgiconmain} className='w-100 svgimg' style={{marginTop:"10px"}}   />
                 
                  <div className='SuperblinkBtn d-flex flex-column align-items-center justify-content-center'>
                  <button  className=" SuperblinkBtn1 btn " >000-123-456</button>
@@ -177,8 +176,10 @@ International PPC campaign management <span>(English only campaigns)</span>
                  </div>
       
                
-                 <img src={affordableman} className='svgman'/>
+                 <div style={{marginRight:"10px"}}>
+                 <img src={affordableman} className=' w-100 svgman'/>
 
+                 </div>
 {/* <img src={svgicon}/> */}
 
    

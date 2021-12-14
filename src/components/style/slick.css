@@ -1,0 +1,53 @@
+.logo-slider .item{
+   
+    background-color: #fff;
+   
+    border-radius: 8px;
+    padding:15px;
+ 
+   
+}
+
+.logo-slider .slick-slide{ 
+    margin: 10px;
+    
+   
+}
+
+.logo-slider .item img{
+   
+  width: 100%
+ 
+   
+}
+
+
+.slick-dots li.slick-active button:before{
+    color: #081d51 !important;
+
+    
+    
+}
+
+.slick-dots li button:before{
+    color: #ff5722 !important;
+    
+    font-size: 20px !important;
+    font-size: 12px !important;
+   
+}
+
+
+.slick-dots li.slick-active button{
+    background-color: #081d51 !important;
+    width: 20px;
+    height: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+ 
+   
+    
+ 
+     
+    
+ }

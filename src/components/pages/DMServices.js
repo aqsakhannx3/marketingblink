@@ -12,8 +12,7 @@ const DMServices = () => {
     return (
 
 
-
-<div className="container-fluid DMServicessection" >
+<div className='container DMServicessection'>
 <div className="DMSimg">
                   {/* <img src={dmsback1} className="dmsback1" /> */}
                   <svg className="dmsback1" xmlns="http://www.w3.org/2000/svg" width="644.543" height="306.665" viewBox="0 0 644.543 306.665">
@@ -25,27 +24,26 @@ const DMServices = () => {
 
                   {/* <img src={dmsback2} className="dmsback2" /> */}
               </div>
-    
-<div className="container" >
 
 
-   <div className=' DMServicescontent'>
-
-   <h2  >Our Digital
-                         <br/>
-                         Marketing Services
-                     </h2>
-                     <h4>Now let’s talk business.</h4>
-                     <p>As a holistic internet marketing company, we offer a wide range of digital marketing solutions to help you achieve
-                         your marketing goals. From taking care of your digital presence, running successful Google campaigns, offering best SEO services to amping your current content marketing, we do it all and more. </p>
-   </div>
-     
-
-            
-   <div  className="row DMSrow align-items-center justify-content-between DMServices">
 
 
-   <div className='col-md-4' style={{ paddingBottom:"70px"}} >
+              <div className=' DMServicescontent'>
+
+<h2  >Our Digital
+                      <br/>
+                      Marketing Services
+                  </h2>
+                  <h4>Now let’s talk business.</h4>
+                  <p>As a holistic internet marketing company, we offer a wide range of digital marketing solutions to help you achieve
+                      your marketing goals. From taking care of your digital presence, running successful Google campaigns, offering best SEO services to amping your current content marketing, we do it all and more. </p>
+</div>
+
+
+
+            <div className='row justify-content-between' style={{marginTop:"100px"}}>
+
+            <div className='col-md-4' style={{ paddingBottom:"70px"}} >
 
 
 <div className='col' style={{marginBottom:"100px"}}>
@@ -78,6 +76,8 @@ our efforts.</p>
 
 </div>
 </div>
+
+
 <div className='col-md-4' >
 
 
@@ -112,16 +112,11 @@ part of content marketing strategy our team writes, edits, develops and promotes
 
 </div>
 </div>
-   
-
-  
 
 
 
+            </div>
 
-
-</div>
-          </div>
 </div>
 
     )

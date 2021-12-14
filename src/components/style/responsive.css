@@ -98,12 +98,80 @@ align-items: center;
     
     }
 
-    
-
-.Affordabletabs li button{
-
-    background-clip: red !important;
-    
-    
+    .logo-slider .item{
+   
+     
+       
+        padding:5px !important; 
+       margin-bottom: 20px  !important;
+       
     }
+   
+  
+    
+  .logo-slider .item img{
+   
+  width: 100%
+ 
+   
+}
+    .DMServicessection{
+        
+        
+            background-image: none !important;
+            
+        
+          }
+
+
+          .affordablepart1 .affordableimg3{
+            position: absolute;
+            top: 600px !important;
+            left: -80px;
+            width: 121px;
+            height: 188px !important;
+           
+          }
+
+          .affordablepart1 .affordableimg4{
+            position: absolute;
+           top: 1000px !important;
+           left: -100px !important;
+            width: 121px;
+            height: 188px !important;
+            z-index: -1 !important;
+          }
+          .affordablepart1 .affordableimg5{
+            position: absolute;
+            top: 3200px !important;
+          right:-100px !important;
+            width: 121px;
+            height: 188px !important;
+           
+          z-index: -1  !important;
+          }
+          .affordablepart1 .affordableimg6{
+            position: absolute;
+            top: 700px !important;
+            right:-20px !important;
+            z-index: -1;
+           
+            
+          }
+          .affordableImg .affordableimg1{
+
+            position:absolute;
+            top:130px !important;
+            
+            
+            }
+            .affordableImg .affordableimg2{
+
+                position:absolute;
+                top:600px  !important;
+                z-index: -1;
+                left: 10px;
+                
+                
+                }
   }

@@ -359,7 +359,7 @@ margin-top: 10px;
 }
 .workingwithtext h3 {
   color: var( --headingcolor);
-  text-align: left;
+  text-align: center;
   font-family: 'Nunito', sans-serif;
   font-size: 36px;
   font-weight: 800;
@@ -528,6 +528,8 @@ border: 2px solid var(--headingcolor);
   padding:10px;
   text-transform: uppercase;
   border-radius: 10px;
+  width:270px;
+  height: 50px;
   margin-top: 30px !important;
  
  
@@ -628,6 +630,10 @@ padding:10px;
 
 
   }
+
+  .DMServicescontent{
+    
+  }
   .DMSrow{
  
   
@@ -727,6 +733,8 @@ left: -250px !important;
  .DMServicescontent p{
  
 
+padding-left: 30px;
+padding-right: 30px;
   margin-top: 40px;
   font-family: 'Nunito', sans-serif;
   font-size: 16px;
@@ -810,7 +818,9 @@ background-color: var(--headingcolor);
   border:2px solid var(--headingcolor) ;
 
   }
-
+.Affordableheading{
+  text-align: center;
+}
 .Affordableheading h3{
  margin-top: 130px;
   font-family: 'Rubik', sans-serif;
@@ -846,7 +856,7 @@ border: 2px solid var(--headingcolor) !important;
 width: 172.94px;
 height: 50px;
 
-
+margin-bottom: 10px;
 
 }
 
@@ -883,6 +893,7 @@ background-color: pink;
 position:absolute;
 top:200px;
 
+
 }
 
 .affordableImg .affordableimg2{
@@ -890,6 +901,7 @@ top:200px;
 position:absolute;
 top:540px;
 z-index: -1;
+left: 10px;
 
 
 }
@@ -916,23 +928,25 @@ bottom: 0;
 }
 .affordablepart1 .affordableimg3{
   position: absolute;
-  top: 350px;
-  left: -110px;
+  top: 500px;
+  left: -80px;
   width: 121px;
   height: 188px !important;
+ 
 }
 .affordablepart1 .affordableimg4{
   position: absolute;
- top: 600px;
-  left: -100px;
+ top: 700px;
+ left: -80px;
   width: 121px;
   height: 188px !important;
+  z-index: -1;
 }
 
 .affordablepart1 .affordableimg5{
   position: absolute;
-  top: 600px;
-  right: -120px;
+  top: 900px;
+right:0px;
   width: 121px;
   height: 188px !important;
 
@@ -940,8 +954,9 @@ bottom: 0;
 .affordablepart1 .affordableimg6{
   position: absolute;
   top: 400px;
+  right:-2px;
   z-index: -1;
-  right: -20px;
+ 
   
 }
 
@@ -1093,6 +1108,7 @@ text-align: left ;
 
 }
 .whyrow {
+  padding:20px;
 
 }
 
