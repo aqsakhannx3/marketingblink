@@ -946,9 +946,11 @@ bottom: 0;
 .affordablepart1 .affordableimg5{
   position: absolute;
   top: 900px;
-right:0px;
+
+right:-10px;
   width: 121px;
   height: 188px !important;
+ z-index: 1;
 
 }
 .affordablepart1 .affordableimg6{

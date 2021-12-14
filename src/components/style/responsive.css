@@ -148,7 +148,7 @@ align-items: center;
             width: 121px;
             height: 188px !important;
            
-          z-index: -1  !important;
+          z-index: 1  !important;
           }
           .affordablepart1 .affordableimg6{
             position: absolute;

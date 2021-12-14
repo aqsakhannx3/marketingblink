@@ -2,7 +2,7 @@ import React from 'react'
 import SuperBlink from './AffordableTabs/SuperBlink'
 import affordableimg3 from "../images/affordableimg3.jpg"
 import affordableimg4 from "../images/affordableimg4.jpg"
-import affordableimg5 from "../images/affordableimg5.jpg"
+import affordableimg5 from "../images/affordableimg7.png"
 import affordableimg6 from "../images/affordableimg6.png"
 
 
@@ -15,7 +15,8 @@ const Affordable = () => {
       
 <img src={affordableimg3} className="affordableimg3" />
 <img src={affordableimg4} className="affordableimg4" />
- <img src={affordableimg5} className="affordableimg5" />
+
+ <img src={affordableimg5} className="affordableimg5" style={{width:"50px",height:"50px"}} />
 <img src={affordableimg6} className="affordableimg6" /> 
 </div> 
        <div className=" container"   >
