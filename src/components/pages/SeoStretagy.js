@@ -2,6 +2,7 @@ import React from 'react'
 import superman from "../images/superman1.jpg"
 import search from "../images/search.png"
 import SeoStrategyimg from "../images/SeoStrategyimg.jpg"
+import "../style/seoresponsive.css"
 
 const SeoStretagy = () => {
     return (

@@ -1,0 +1,13 @@
+@media screen and (max-width: 360px) {
+
+
+
+    .SeoStrategyimg .seoimg{
+
+        position: absolute;
+       
+        left: 90px;
+        top:20px;
+      z-index: -1;
+      }
+}

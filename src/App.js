@@ -28,11 +28,11 @@ function App() {
    <Logoslider/>
  <SMmarketing/>
    <Workingwith/>
-   {/* <SeoStretagy/> */}
+   <SeoStretagy/>
    {/* <SEO/> */}
    <DigitalCoomunication/>
    <DMServices/>
-
+{/* <Affordable/> */}
    <WhyChoose/> 
    <Footer/>  
    </Router>
