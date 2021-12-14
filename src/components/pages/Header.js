@@ -1,6 +1,6 @@
 import React from 'react'
 import bannergirl from "../images/bannergirl2.jpg"
-import"../style/Header.css"
+
 const Header = () => {
     return (
         <section className="  Header"  >

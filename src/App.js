@@ -4,7 +4,7 @@ import Navbar from "./components/inc/Navbar"
 import {BrowserRouter as Router,Routes , Route} from "react-router-dom"
 import Header from "./components/pages/Header"
 import Logoslider from './components/pages/Logoslider';
-import SocialMediaMarketing from "./components/pages/SocialMediaMarketing"
+
 import Workingwith from './components/pages/Workingwith';
 import SeoStretagy from './components/pages/SeoStretagy';
 import DigitalCoomunication from './components/pages/DigitalCoomunication';
