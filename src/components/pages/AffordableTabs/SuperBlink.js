@@ -2,11 +2,11 @@ import React from 'react'
 import svgiconmain from "../../images/affordablebackimg1.jpg"
 import affordableman from "../../images/affordableman.png"
 import affordableimg1 from "../../images/affordableimg1.jpg"
-import affordableimg2 from "../../images/affordableimg2b.jpg"
+import affordableimg2 from "../../images/affordableimg2.jpg"
 const SuperBlink = () => {
     return (
       
-<section className='SuperBlink'  style={{boxShadow:"1px 4px 80px #dbdbdb"}} >
+<section className='SuperBlink'  style={{boxShadow:"1px 4px 80px #dbdbdb"}}  style={{borderRadius:"100px"}}  >
         <div className="affordableImg">
 
             

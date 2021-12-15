@@ -9,12 +9,12 @@ import "../style/affordablere.css"
 
 const Affordable = () => {
     return (
-         <section className="  affordable"    >
+         <section className="  affordable"  >
               <div className="affordablepart1">
               <img src={affordableimg3} className="affordableimg3"  />
               <img src={affordableimg4} className="affordableimg4" />
               <img src={affordableimg5} className="affordableimg5"  />
-              {/* <img src={affordableimg6} className="affordableimg6" /> */}
+              <img src={affordableimg6} className="affordableimg6" />
 
 
 </div> 

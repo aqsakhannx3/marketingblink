@@ -2,7 +2,7 @@ import React from 'react'
 import whychooseman from "../images/whychooseman.png"
 const WhyChoose = () => {
     return (
-      <div className="container-fluid whychoose">
+      <div className=" whychoose">
 
 <div className="container" >
 
