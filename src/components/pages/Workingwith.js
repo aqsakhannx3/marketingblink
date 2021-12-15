@@ -11,22 +11,22 @@ import think from "../images/think.jpg"
 import zendesk from "../images/zendesk.jpg"
 import microsoft from "../images/microsoft.jpg"
 import typeform from "../images/typeform1.jpg"
-import img1 from "../images/facebook1.jpg"
-import img2 from "../images/google1.jpg"
-import img3 from "../images/instagram1.jpg"
-import img4 from "../images/youtube.jpg"
-import img5 from "../images/pinterest1.jpg"
-import img6 from "../images/tiktok.jpg"
-import img7 from "../images/panadoc.jpg"
+import img1 from "../images/logos/google.jpg"
+import img2 from "../images/logos/facebook.jpg"
+import img3 from "../images/logos/instagram.jpg"
+import img4 from "../images/logos/youtube.jpg"
+import img5 from "../images/logos/pinterest.jpg"
+import img6 from "../images/logos/tiktok.jpg"
+import img7 from "../images/logos/panadoc.jpg"
 
-import img8 from "../images/think.jpg"
+import img8 from "../images/logos/think.jpg"
 
-import img9 from "../images/microsoft.jpg"
-
-
+import img9 from "../images/logos/microsoft.jpg"
 
 
-import img10 from "../images/zendesk.jpg"
+
+
+import img10 from "../images/logos/zendesk.jpg"
 // import "../style/slick.css"
 import "../style/logoslide.css"
 const Workingwith = () => {
@@ -34,7 +34,7 @@ const Workingwith = () => {
 
 
 
-            <div className="container-fluid workingwith" >
+            <div className=" workingwith" >
 
 
 
@@ -206,4 +206,4 @@ const Workingwith = () => {
     )
 }
 
-export default Workingwith
+export default Workingwith;
