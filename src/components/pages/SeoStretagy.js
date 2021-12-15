@@ -9,7 +9,7 @@ const SeoStretagy = () => {
 
 
 
-
+               
 
               <section className="  SeoStrategy">
 
@@ -21,10 +21,10 @@ const SeoStretagy = () => {
 
                  <div className="row ">
                  
-                     <div className="col-md-6 SeoStrategyleft" >
+                     <div className="col-md-6  SeoStrategyleft" >
                        
                      <div className=' SeoStrategyleftimg' >
-                           <img   src={superman}   /> 
+                           <img   src={superman} style={{marginBottom:"100px"}}   /> 
                      </div>
                  
                     
@@ -38,7 +38,7 @@ const SeoStretagy = () => {
                             <img src={SeoStrategyimg} className="seoimg"/>
                            
                           </div> 
-                                  <div className=' SeoStrategycontent'>
+                                  <div className=' SeoStrategycontent' style={{marginTop:"100px"}}>
                                   <h4>Comprehensive SEO Strategy</h4>
                     <h3>
                    
@@ -54,7 +54,7 @@ const SeoStretagy = () => {
                      {/* tabssection
                    */}
                  
-                 <div className='container'>
+                 <div className='container' style={{marginTop:"50px"}}>
 
 
                  <div className="row d-flex align-items-start align-items-center SeoStrategytabs ">
