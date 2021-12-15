@@ -32,7 +32,10 @@ const DigitalCoomunication = () => {
 
 
      
- <img src={digitalcommimg} style={{width:"100%"}}/>
+<div className='socialmediarightimg'>
+
+<img src={digitalcommimg} style={{width:"100%"}}/>
+</div>
        
         
     </div>

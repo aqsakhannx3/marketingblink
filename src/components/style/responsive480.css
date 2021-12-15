@@ -1,10 +1,8 @@
 @media screen and (min-width:360px) and (max-width: 480px) {
 
-    .Header{
-        background-color: red;
-    }
+    
     .headerleft{
-        background-color: blue;
+     
         width: 100%;
     }
     .HeaderInput input{

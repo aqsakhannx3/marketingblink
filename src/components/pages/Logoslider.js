@@ -6,10 +6,26 @@ import clutch from "../images/clutch.jpg";
 
 const Logoslider = () => {
   return (
-    <section className=" Logoslider">
+    <section className=" Logoslider" >
       <div className="container">
-        <div className="header-icons  ">
-          <ul>
+        <div className="  row justify-content-around align-items-center header-icons  ">
+                
+                     <div className="col">
+                     <img src={trustpilot}/>
+                     </div>
+                 <div className="col">
+                 <img src={google} />
+                 </div>
+                   <div className="col">
+                   <img src={bark} />
+                   </div>
+                   <div className="col">
+                   <img src={clutch}/>
+                   </div>
+                   
+              
+
+          {/* <ul>
             <li>
             
               <img src={trustpilot} />
@@ -17,7 +33,7 @@ const Logoslider = () => {
             <li><img src={google} /></li>
             <li> <img src={bark} /></li>
             <li>  <img src={clutch} /></li>
-          </ul>
+          </ul> */}
 
           
 

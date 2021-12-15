@@ -1,25 +1,22 @@
 import React from 'react'
 import SuperBlink from './AffordableTabs/SuperBlink'
 import affordableimg3 from "../images/affordableimg3.jpg"
-import affordableimg4 from "../images/affordableimg4.jpg"
-import affordableimg5 from "../images/affordableimg7.png"
+import affordableimg4 from "../images/affordableimg4a.jpg"
+import affordableimg5 from "../images/affordableimg5a.jpg"
 import affordableimg6 from "../images/affordableimg6.png"
 
 import "../style/affordablere.css"
 
 const Affordable = () => {
     return (
-         <div className="container-fluid  affordable"    >
+         <section className="  affordable"    >
               <div className="affordablepart1">
               <img src={affordableimg3} className="affordableimg3"  />
               <img src={affordableimg4} className="affordableimg4" />
-              <img src={affordableimg5} className="affordableimg5" style={{width:"50px",height:"50px"}} />
-{/*       
-<img src={affordableimg3} className="affordableimg3"  />
-<img src={affordableimg4} className="affordableimg4" />
+              <img src={affordableimg5} className="affordableimg5"  />
+              {/* <img src={affordableimg6} className="affordableimg6" /> */}
 
- <img src={affordableimg5} className="affordableimg5" style={{width:"50px",height:"50px"}} />
-<img src={affordableimg6} className="affordableimg6" />  */}
+
 </div> 
        <div className=" container"   >
           
@@ -75,7 +72,7 @@ const Affordable = () => {
              </div>
 
         </div>
-       </div>
+       </section>
      
     )
 }

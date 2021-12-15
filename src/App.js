@@ -14,6 +14,7 @@ import  WhyChoose from "./components/pages/WhyChoose"
 import SMmarketing from './components/pages/SMmarketing';
 import Footer from "./components/pages/Footer"
 
+
 function App() {
   return (
     <div className="App">
@@ -26,16 +27,18 @@ function App() {
      <Navbar/>
    <Header/>
    <Logoslider/>
+
  <SMmarketing/>
+
    <Workingwith/>
-   <SeoStretagy/>
+ {/* <SeoStretagy/> */}
   
-   <DigitalCoomunication/>
+ <DigitalCoomunication/>
    <DMServices/>
 <Affordable/>
    <WhyChoose/> 
-   <Footer/>  
-   </Router>
+   <Footer/>   
+   </Router> 
    
     </div>
   );

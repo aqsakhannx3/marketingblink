@@ -3,15 +3,17 @@ import bannergirl from "../images/bannergirl2.jpg"
 
 const Header = () => {
     return (
-        <section className="container-fluid Header"  >
+        <section className=" Header"   >
 
 
          <div className="container">
          <div className="row">
 
 <div className=" col-md-6  headerleft"  >
-<img src={bannergirl} />
 
+ <div className='headerimg'>
+ <img src={bannergirl} />
+ </div>
 
 </div>
 <div className="col-md-6  headerright">

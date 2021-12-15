@@ -11,8 +11,24 @@ import think from "../images/think.jpg"
 import zendesk from "../images/zendesk.jpg"
 import microsoft from "../images/microsoft.jpg"
 import typeform from "../images/typeform1.jpg"
+import img1 from "../images/facebook1.jpg"
+import img2 from "../images/google1.jpg"
+import img3 from "../images/instagram1.jpg"
+import img4 from "../images/youtube.jpg"
+import img5 from "../images/pinterest1.jpg"
+import img6 from "../images/tiktok.jpg"
+import img7 from "../images/panadoc.jpg"
 
-import "../style/slick.css"
+import img8 from "../images/think.jpg"
+
+import img9 from "../images/microsoft.jpg"
+
+
+
+
+import img10 from "../images/zendesk.jpg"
+// import "../style/slick.css"
+import "../style/logoslide.css"
 const Workingwith = () => {
     return (
 
@@ -31,6 +47,47 @@ const Workingwith = () => {
 
 
 
+
+
+          
+    <div className='client-area'>
+    <section className="logo-area slider">
+                <div className="slide">
+                    <img src={img1} />
+                </div>
+                <div className="slide">
+                <img src={img2}/>
+                </div>
+                <div className="slide">
+                <img src={img3}/>
+                </div>
+                <div className="slide">
+                <img src={img4}/>
+                </div>
+                <div className="slide">
+                <img src={img5}/>
+                </div>
+                <div className="slide">
+                <img src={img6}/>
+                </div>
+                <div className="slide">
+                <img src={img7}/>
+                </div>
+                <div className="slide">
+                <img src={img8}/>
+                </div>
+                <div className="slide">
+                <img src={img9}/>
+                </div>
+                <div className="slide">
+                    
+                    <img src={img10}/> 
+                   
+                </div>
+            </section>
+    </div>
+
+{/* 
                   <div className='logo-slider align-items-center' >
 
 
@@ -96,7 +153,7 @@ const Workingwith = () => {
                 <img src={zendesk}/>
             </a>
         </div>
-                  </div>
+                  </div> */}
                 </div>
             </div>
 

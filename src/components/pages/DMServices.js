@@ -9,9 +9,9 @@ import DMSicon4 from "../images/DMSicon4.png"
 
 const DMServices = () => {
     return (
-<div className='container'>
 
-<div className='DMServicessection'>
+
+<div className='container DMServicessection'>
 <div className="DMSimg">
                  
                   <svg className="dmsback1" xmlns="http://www.w3.org/2000/svg" width="644.543" height="306.665" viewBox="0 0 644.543 306.665">
@@ -119,7 +119,7 @@ part of content marketing strategy our team writes, edits, develops and promotes
 
 
             </div>
-            </div>
+           
 </div>
 
     )
