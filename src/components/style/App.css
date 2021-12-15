@@ -808,7 +808,7 @@ background-color: pink;
 
 position:absolute;
 top:150px;
-
+z-index: -1;
 
 }
 
@@ -835,6 +835,8 @@ left: 0px;
   position:absolute;
   top: 600px;
   right:-1px;
+
+ 
 }
 .affordablepart1{
   
@@ -858,6 +860,7 @@ bottom: 0;
   width: 121px;
   height: 188px !important;
   z-index: -1;
+  opacity:20%;
 }
 
 .affordablepart1 .affordableimg5{

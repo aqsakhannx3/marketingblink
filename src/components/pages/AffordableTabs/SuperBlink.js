@@ -3,14 +3,16 @@ import svgiconmain from "../../images/affordablebackimg1.jpg"
 import affordableman from "../../images/affordableman.png"
 import affordableimg1 from "../../images/affordableimg1.jpg"
 import affordableimg2 from "../../images/affordableimg2.jpg"
+import superblink1 from "../../images/logos/superblink1.png"
+// import superblink3 from "../../images/logos/superblink3.jpg"
 const SuperBlink = () => {
     return (
       
 <section className='SuperBlink'  style={{boxShadow:"1px 4px 80px #dbdbdb"}}  style={{borderRadius:"100px"}}  >
         <div className="affordableImg">
-
-            
-  <img src={affordableimg1} className="affordableimg1"/>
+        {/* <img src={superblink3} className="affordableimg1"/> */}
+            <img src={superblink1} className="affordableimg1"/>
+  {/* <img src={affordableimg1} className="affordableimg1"/> */}
   <img src={affordableimg2} className="affordableimg2"/>
     
         </div>
