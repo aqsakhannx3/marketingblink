@@ -149,9 +149,14 @@
   .whychoose {
 
     margin-top: 140px !important;
+    
    
    
    
+  }
+
+  .whychooseleft{
+    margin-top: 30px !important;
   }
   .Footermiddle ul{
     margin: 20px;

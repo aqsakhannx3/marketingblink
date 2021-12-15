@@ -4,7 +4,7 @@ const WhyChoose = () => {
     return (
       <div className=" whychoose">
 
-<div className="container" >
+
 
 <div className="row whyrow align-items-center "  >
 
@@ -38,7 +38,7 @@ for ourselves. Before you give us the chance to do our magic, we open our doors 
 </div>
 
 </div>
-      </div>
+      
     )
 }
 

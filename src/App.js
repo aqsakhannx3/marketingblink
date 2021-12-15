@@ -31,7 +31,7 @@ function App() {
  <SMmarketing/>
 
    <Workingwith/>
- {/* <SeoStretagy/> */}
+ <SeoStretagy/>
   
  <DigitalCoomunication/>
    <DMServices/>
