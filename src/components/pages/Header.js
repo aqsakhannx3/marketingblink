@@ -12,12 +12,12 @@ const Header = () => {
 <div className="row">
 
 <div className=" col-md-6  headerleft"  >
-<img src={bannergirl}  />
-{/* 
+{/* <img src={bannergirl} className='w-100'  /> */}
+
 <div className='headerimg'>
 <img src={bannergirl}  />
 
-</div> */}
+</div> 
 
 
 
