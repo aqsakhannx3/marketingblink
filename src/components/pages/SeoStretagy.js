@@ -67,11 +67,11 @@ const SeoStretagy = () => {
 
                              
                                
-                 <div className='container' style={{marginTop:"50px"}}  style={{backgroundColor:"#fff" , boxShadow:"0 0 60px #EFF2F5",borderRadius:"24px"}}>
+                 <div className='container' style={{marginTop:"50px"}}  >
 
 
-<div className="d-flex SeoStrategytabs " style={{marginTop:"40px"}}  >
-<div className=" nav flex-column    nav-pills " id="v-pills-tab" role="tablist" aria-orientation="vertical">
+<div className="d-flex SeoStrategytabs " style={{marginTop:"40px"}}    >
+<div style={{backgroundColor:"#fff" , boxShadow:"0 0 60px #EFF2F5",borderRadius:"24px"}} className=" nav flex-column    nav-pills " id="v-pills-tab" role="tablist" aria-orientation="vertical">
 
 <button  className="nav-link active text-start " id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">On-Page SEO</button>
 <button className="nav-link text-start  " id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Off-Page SEO</button>
@@ -82,7 +82,7 @@ const SeoStretagy = () => {
 <div style={{backgroundColor:"#fff" ,boxShadow:"0 0 60px #EFF2F5" , borderRadius:"24px"}} className="  tabContent tab-content " id="v-pills-tabContent" >
 {/* On-Page SEO */}
 
-<div className="  tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+<div style={{backgroundColor:"#fff" , boxShadow:"0 0 60px #EFF2F5",borderRadius:"24px"}} className="  tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
 
 <div className="card tabcard " >
 
