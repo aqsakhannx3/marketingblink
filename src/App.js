@@ -13,12 +13,14 @@ import Affordable from "./components/pages/Affordable"
 import  WhyChoose from "./components/pages/WhyChoose"
 import SMmarketing from './components/pages/SMmarketing';
 import Footer from "./components/pages/Footer"
+import Bootstrap from './components/pages/Bootstrap';
 
 
 function App() {
   return (
     <div className="App">
    <Router>
+     {/* <Bootstrap/> */}
      <Routes>
 
 
@@ -26,17 +28,16 @@ function App() {
      </Routes>
      <Navbar/>
    <Header/>
-   <Logoslider/>
+ <Logoslider/>
 
- <SMmarketing/>
-
-   <Workingwith/>
+<SMmarketing/>
+<Workingwith/>
  <SeoStretagy/>
   
  <DigitalCoomunication/>
    <DMServices/>
 <Affordable/>
-   <WhyChoose/> 
+   <WhyChoose/>  
    <Footer/>   
    </Router> 
    

@@ -1,0 +1,151 @@
+.Header{
+    margin-top: 35px;
+
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.headerright{
+background-color: red;
+    padding-top: 40px;
+  }
+
+  .headerright h2{
+     
+      word-spacing: 25px;
+      font-size: 68px;
+      font-family: 'Montserrat', sans-serif;
+      text-align: left;
+      background:linear-gradient(to left,#f0a056 ,#ec5c6b  ) ;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+     line-height:68px;
+    
+     font-weight: 800;
+   
+  }
+
+
+  
+  .headerright p{
+  
+ 
+  
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    text-align: left;
+         
+    line-height:21.6px ;
+    font-weight: 400;
+    color: var(--headingcolor) !important;
+ 
+}
+.marketingblink{
+    color: var(--hovercolor);
+
+
+    font-weight: 700;
+    line-height: 21.6px;
+  }
+
+.HeaderInput{
+    margin-top: 20px;
+    background-color: white;
+padding-top:15px;
+padding-bottom: 15px;
+    border: 1px solid #FFFFFF;
+    box-shadow: 35px 0px 54px #eff2f5;
+    border-radius: 20px;
+margin:10px 0 !important;
+
+}
+
+
+
+.HeaderInput input{
+  background-color: #f8f9fa;
+    border-radius: 10px;
+  
+    border:none;
+    margin-bottom: 10px;
+    line-height:16.8px ;
+    color: var(--headingcolor);
+   margin-bottom: 15px;
+    height: 50px;
+    
+}
+
+
+
+.HeaderInput .dropdowninput{
+    background-color: #f8f9fa;
+      border-radius: 10px;
+    height: 50px;
+      border:none;
+      margin-bottom: 15px;
+     
+  
+  }
+
+  
+
+  .dropdowninput .dropdown-toggle::after {
+        
+    text-align: right;
+     color: var(--hovercolor);
+     margin-left: 160px;
+   
+   }
+
+   .dropdowninput a {
+    margin-top: 2px;
+   
+ padding:10px;
+}
+
+
+  .HeaderInput .btnrequest{
+
+
+    background-color: var(--headingcolor) !important;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    color: white !important;
+    
+  
+  
+   
+  
+  }
+.HeaderInput .btnrequest:hover{
+    background-color: white !important;
+  
+  color: var(--headingcolor) !important;
+  
+  border:  2px solid var(--headingcolor);
+  }
+  
+  .HeaderInput .btnlive{
+
+
+    background: linear-gradient(to left,#f0a056 ,#ec5c6b) !important;
+    
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    color: white !important;
+
+
+    
+  
+  
+   
+  
+  }
+
+
+
+  .HeaderInput .btnlive:hover{
+    color: white ;
+    background:#ec5c6b !important;
+    transition: 0.3;
+  }

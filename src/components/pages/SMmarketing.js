@@ -3,8 +3,8 @@ import "../style/smm.css"
 
 const SMmarketing = () => {
     return (
-       <div className='container-fluid smmmarketing' >
-           <div className='container'>
+       <section className=' smmmarketing' >
+           <div className='container' >
 
 
                <div className='row smmmarketingrow'>
@@ -73,12 +73,13 @@ const SMmarketing = () => {
 </div>
 
 </div>
-<div className="row socialmediarightrow"  >
 
-<div className="col SMMcol  "  >
-    <div className="card  SMS socialmediarightcard w-100 shadow aligh-items-center justify-content-center"  >
+<div className="row" >
 
-        <div className="card-body ">
+<div className="col SMMcol"  >
+    <div   className="card  SMS socialmediarightcard w-100 shadow aligh-items-center justify-content-center"  >
+
+        <div className="card-body " >
 
 
 
@@ -91,7 +92,8 @@ const SMmarketing = () => {
                 </div>
                 {/* <img src={groupcontact} className="SMMimg" /> */}
 
-                <h4  >Social Media Management</h4>
+                <h4 >Social Media Management</h4>
+
 
             </div>
             <p>Marketing Blink devises a
@@ -100,7 +102,7 @@ social media strategy based on your target audience and your business goals.</p>
         </div>
     </div>
 </div>
-<div className="col SMMcol  ">
+<div className="col SMMcol" >
     <div className="card CSS socialmediarightcard w-100 shadow aligh-items-center justify-content-center" >
 
         <div className="card-body ">
@@ -111,22 +113,19 @@ social media strategy based on your target audience and your business goals.</p>
 
                 </div>
                 <h4 >Customer Centric Strategy</h4>
-
             </div>
             <p>Being customer-centric implies prioritising the needs and expectations of customers over all other considerations.</p>
-
         </div>
     </div>
 </div>
 
 </div>
 
-
 </div>
                </div>
            </div>
 
-       </div>
+       </section>
     )
 }
 

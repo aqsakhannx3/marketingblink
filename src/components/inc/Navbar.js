@@ -3,18 +3,22 @@ import logo from "../images/logo.jpg"
 import { Link } from 'react-router-dom'
 const Navbar = () => {
     return (
-        <div className="container-fluid navbarsection">
-        <nav className=" navbar navbar-expand-lg navbar-light bg-white" >
+        <section className="navbarsection"  >
+          <div className="container"  >
+        <nav className=" navbar navbar-expand-lg navbar-light vg-white "  >
         
-          <div className="container">
-                  <Link to="/" className="navbar-brand">
-                  <img src={logo} alt="logo" />
+          
+                  <Link to="/"   >
+                  <img src={logo} alt="logo" className='logo' />
                   </Link>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+          <div className="collapse navbar-collapse" id="navbarSupportedContent"  >
+      
+
+
+           <ul className="navbar-nav ms-3 me-3  mb-lg-0"  >
               <li className="nav-item" >
              
                 <Link className="nav-link active" aria-current="page" to="/">Home</Link>
@@ -36,15 +40,18 @@ const Navbar = () => {
               </li>
             
             </ul>
+            <button className="btn navbarbtn btn-success" >Let's Connect</button>
+           </div>
         
             
-              <button className="btn navbarbtn btn-success" >Let's Connect</button>
+             
            
-          </div>
-          </div>
+          
+       
       
       </nav>
       </div>
+      </section>
     )
 }
 

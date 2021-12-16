@@ -1,0 +1,51 @@
+.tabsection{
+    
+    padding:30px;
+}
+
+.tabsection button{
+    background-color: transparent  !important;
+
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--headingcolor);
+    text-align: left;
+    line-height: 21.6px;
+  
+
+}
+
+
+
+.tabsection button:hover{
+    background-color: transparent !important;
+    
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800 !important;
+    color: #E25F46  !important;
+
+
+  
+  
+
+}
+
+
+.tabsection button.active{
+    background-color: transparent !important;
+    
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800 !important;
+    color: #E25F46  !important;
+
+
+  
+  
+
+}
+
+.tabsection .tabrightsection {
+    background-color: green !important;
+     margin-left: 50px;
+}

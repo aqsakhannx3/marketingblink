@@ -2,8 +2,8 @@
   
     margin-top: 70px;
     background-image: url("../images/socialmediabackimg.jpg");
-    padding:10px;
    
+
 }
 
 .smmmarketingrow{
@@ -11,7 +11,9 @@
 }
 
 .smmmarketingleft{
-   padding:10px;
+  padding-top: 20px;
+  padding-left: 30px !important;
+ 
 }
 
 .smmmarketingleft h3{
@@ -27,19 +29,20 @@
   }
 
   .smmmarketingleft p{
-
-    color: var( --headingcolor);
+ 
+   margin-top: 50px !important;
+    color: var( --headingcolor) !important;
   text-align: left;
   font-family: 'Rubik', sans-serif;
   font-size: 16px;
   margin-top: 50px;
-
+ font-weight: 400;
 
   }
   .SMMbtnsection{
      
       margin-top: 40px;;
-      margin-bottom: 40px;
+     
   }
 
   .SMMbtnsection button{
@@ -51,7 +54,7 @@
       border: none;
       line-height: 16.8px;
       text-transform: uppercase;
-      width: 175px;
+      width: 173px;
 
 
    
@@ -100,16 +103,16 @@
   
   }
   .SMMcol .card{
-   
-    padding:20px !important;
+
+    padding:10px !important;
     border-radius: 24px;
     width: 263px;
        box-shadow: 0px 0px 60px #EFF2F5;
-    height: 224.23px;
+    height: 224px;
   }
   
   .SMMcol .card h4{
-    margin-left: 10px ;
+    
     font-family: 'Rubik', sans-serif;
     color: var(--headingcolor);
     font-size: 18px;
@@ -129,8 +132,8 @@
     font-size: 14px;
     line-height: 16.8px;
     text-align: left;
-    padding-top:15px;
-    padding-bottom: 15px;
+
+   margin-top: 25px;
   
   }
   .SMMcol .SMM .SMMimg{

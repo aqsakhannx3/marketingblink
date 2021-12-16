@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Nunito:wght@600;700;800&family=Rubik:wght@300;400;500;600;700&display=swap');
 /* @import url("./responsivesite.css"); */
 /* @import url("./mediaquery360.css"); */
-@import url("./mediaquery576.css");
+/* @import url("./mediaquery576.css"); */
 
 *{
  margin: 0;
@@ -16,52 +16,51 @@
 
 
 .navbarsection {
-    margin-top: 25px;
+    margin-top: 30px;
+   
    
 }
 .navbarsection .navbarbtn{
     background: linear-gradient(to left ,#f0a056,#ec5c6b);
+  
     color: white;
+    font-weight: 500;
       border:none;
       font-size: 14px;
       font-family: 'Rubik', sans-serif;
-  font-weight: medium;
+ 
   text-transform: uppercase;
     width: 175.44px;
     height: 50px;
-    border:none;
+  
+  
     border-radius: 10px;
 }
 /* 12 */
-.navbarsection ul{
-   
 
 
-}
-.navbarsection li{
-  
-    margin-right: 10px;
-    
-
-}
 
 .navbarsection li a{
   
     color: var(--headingcolor) !important;
     font-family: 'Rubik', sans-serif;
-    font-weight: 300;
+    font-weight:  300;
     line-height: 19px;
     text-align: left;
     font-size: 16px;
+    line-height: 19.2px;
     
 
 }
 
 .navbarsection li a:hover{
     color:var(--hovercolor)  !important;
+    font-weight:  300;
+
 }
 .navbarsection li .active{
     color:var(--hovercolor)  !important;
+    font-weight:  500;
 }
 
 
@@ -74,25 +73,28 @@
 }
  /* Headersection */
 
- /* Headersection */
  .Header{
   margin-top: 25px !important;
 }
 
+.headerleft{
+  padding: 0 50px;
+}
+
 .headerright{
 
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 
 .headerleft img{
  width: 100%;
- height: 100%;
+ height: 100vh;
 }
 
 
 .headerright h2{
-  word-spacing: 25px;
+  
    font-size: 68px;
    font-family: 'Montserrat', sans-serif;
    text-align: left;
@@ -107,12 +109,11 @@
 }
 .headerright p{
 
-
-  padding:10px;
+padding-right: 10px;
     font-size: 18px;
     font-family: 'Rubik', sans-serif;
-    text-align: left;
-    margin-top:30px;
+    text-align: left !important;
+
     line-height:21.6px ;
     font-weight: 400;
     color: var(--headingcolor) !important;
@@ -127,14 +128,20 @@
 
 .HeaderInput{
  
-  margin-top: 25px;
+
   background-color: white;
-  padding:15px;
+padding: 20px 15px;
+
+  border: 1px solid #FFFFFF;
+  box-shadow: 35px 0px 54px #eff2f5;
+  border-radius: 20px;
+margin:10px 0 !important;
+
 }
 .HeaderInput input{
  padding:20px;
-  width: 250px;
-  height: 50px;
+ width: 240px;
+ height: 50px;
   margin-bottom: 15px;
   font-size: 14px;
   font-family: 'Rubik', sans-serif;
@@ -152,18 +159,17 @@ background-color: #F8F9FA;
   font-family: 'Rubik', sans-serif;
   font-weight: 500;
   color: white !important;
-  width: 250px;
-height: 50px;
+
   border-radius: 10px;
   border: none;
-    
+    text-transform: uppercase;
 }
 .btnrequest:hover{
   background-color: white !important;
 
 color: var(--headingcolor) !important;
 
-border:  2px solid var(--headingcolor);
+border:  2px solid var(--headingcolor) !important;
 }
 .btnlive{
   
@@ -173,8 +179,7 @@ border:  2px solid var(--headingcolor);
       font-family: 'Rubik', sans-serif;
       font-weight: 500;
       color: white !important;
-      width: 250px;
-   height: 50px;
+  
       border-radius: 10px;
       border: none;
 }
@@ -186,24 +191,29 @@ border:  2px solid var(--headingcolor);
   transition: 0.3;
 }
 .dropdowninput {
-  background-color: #F8F9FA;
-    font-size: 14px;
-    font-family: 'Rubik', sans-serif;
-    line-height: 16.8px;
-    font-variant: var(--headingcolor);
-    width: 250px;
-    height: 50px;
+  padding:5px;
+  width: 240px;
+ height: 50px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-family: 'Rubik', sans-serif;
+  line-height:16.8px ;
+
+border:none !important;
+  border-radius: 10px;
+background-color: #F8F9FA;
+  
     border-radius: 10px;
 }
 .dropdowninput .dropdown-toggle::after {
       
   text-align: right;
    color: var(--hovercolor);
-   margin-left: 120px;
+   margin-left: 110px;
  
  }
  .dropdowninput a {
-     margin-top: 2px;
+     margin-top: 1px;
     
   padding:10px;
 }
@@ -214,6 +224,7 @@ border:  2px solid var(--headingcolor);
 
     
 
+ /* Headersection */
 
 
 
@@ -251,7 +262,7 @@ border:  2px solid var(--headingcolor);
 
 .workingwith{
 
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
  
@@ -314,10 +325,12 @@ z-index: -1;
 
   
 }
+
 .SeoStrategyleft .SeoStrategyleftimg img{
   width: 100%;
-  height: 100%;
-  
+ 
+  height: 100vh;
+
 
 }
 .SeoStrategyright{
@@ -466,6 +479,9 @@ border: 2px solid var(--headingcolor);
 
 .DCleft{
 
+  padding-top: 20px;
+  padding-left: 30px !important;
+
   /* padding:30px; */
 }
 /* .DCcontent .DCleft{
@@ -547,41 +563,80 @@ background-image: url("../images/dmjpg.jpg") !important;
     
 
 
-  .DMServicescontent{
-    
-  }
   .DMSrow{
  
   
    margin-top: 100px !important;
     margin-left: 1px !important;
   }
-  .DMServices{
-
-  }
-
-  .DMSrow h3{
  
-    
-    font-family: 'Nunito', sans-serif;
+
+
+
+  .section1 h4{
+    text-align: right;
+    font-family: 'Nunito', sans-serif  !important;
     font-weight: 800;
-    font-size: 18px;
+    font-size: 18px ;
     color: var(--headingcolor);
    
     line-height: 21.6px;
-
+   
   }
-  .DMSrow p{
-    
-    margin-top: 30px;
-    font-family: 'Nunito', sans-serif;
-    font-size: 16px;
+
+  .section1 p{
+    text-align: right;
+    font-family: 'Rubik', sans-serif;
     font-weight: 400;
-
+    font-size: 16px ;
     color: var(--headingcolor);
-  
-
+   
+    line-height: 19.2px;
+   
   }
+
+
+
+
+  .section2 h4{
+    text-align: left;
+    font-family: 'Nunito', sans-serif  !important;
+    font-weight: 800;
+    font-size: 18px ;
+    color: var(--headingcolor);
+   
+    line-height: 21.6px;
+   
+  }
+
+  .section2 p{
+    text-align: left;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px ;
+    color: var(--headingcolor);
+   
+    line-height: 19.2px;
+   
+  }
+
+
+  .section1 .DMSEO{
+
+   
+ margin-top: 140px;
+   
+  }
+
+
+
+
+  .section2 .DMCM{
+
+   
+    margin-top: 120px;
+      
+     }
 /* .DMServices{
   background-image: url("../images/DMbackimg.png");
   background-repeat: no-repeat;
@@ -695,11 +750,12 @@ text-align: center;
 
 
 .affordablebtn .btn-blinked{
-width: 175px;
+width: 172.94px;
+height: 50px;
 background: var(--headingcolor);
 font-family: 'Rubik', sans-serif;
 font-weight: 500;
-padding:10px;
+
 color: white;
 border:none;
 border-radius: 10px;
@@ -715,12 +771,13 @@ transition: 0.5;
 
 }
 .affordablebtn .btnplans{
-width: 175px;
+  width:172.94px;
+  height: 50px;
 background-color: white;
 
 font-family: 'Rubik', sans-serif;
 font-weight: 500;
-padding:10px;
+
 color: var(--headingcolor);
 border:2px solid var(--headingcolor) ;
 border-radius: 10px;
@@ -771,7 +828,7 @@ background-color: white !important;
 border: 2px solid var(--headingcolor) !important;
 width: 172.94px;
 height: 50px;
-
+border-radius: 10px !important;
 margin-bottom: 10px;
 
 }

@@ -2,7 +2,7 @@ import React from 'react'
 import digitalcommimg from "../images/digitalcommimg.png"
 const DigitalCoomunication = () => {
     return (
-       <div className="container-fluid DigitalCoomunication">
+       <div className="DigitalCoomunication">
           
             <div className="container" >
 

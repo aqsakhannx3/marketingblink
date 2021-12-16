@@ -40,84 +40,168 @@ const DMServices = () => {
 
 
 
-            <div className='row justify-content-between' style={{marginTop:"100px"}}>
+            <div className='row align-items-start justify-content-between' style={{marginTop:"100px"}}>
+                        
 
-            <div className='col-md-4' style={{ paddingBottom:"70px"}} >
 
 
-<div className='col-md-12' style={{marginBottom:"100px"}}>
+            <div className="col-md-4">
+                    
+                    <div className='section1 d-flex'>
+                    <div className='DMScontent'>
+                    <div className='DMSMM d-flex'>
+                    
+                   <div>
 
-<div className="d-flex "  >
-<div>
-<h3 className='text-end' >Social Media Marketing</h3>
-<p className='text-end'>We develop a holistic social media
-plan for your business across all
-social platforms and make your
-voice heard in the digital crowd.</p>
-</div>
-<div> <img src={DMSicon1}  style={{marginLeft:"30px"}}/></div>
-</div>
 
-</div>
+                   <h4  >Social Media Marketing</h4>
+                    <p>We develop a holistic social media
+                    plan for your business across all
+                    social platforms and make your
+                    voice heard in the digital crowd.</p>
+                 
+                   </div>
+                    
+                   <div> <img src={DMSicon1}  style={{marginLeft:"30px"}}/></div>
+                    
+                    </div>
+                    <div className='DMSEO d-flex' >
+                    
+                    <div>
 
-<div className='col-md-12'>
 
-<div className="d-flex " >
-<div>
-<h3 className='text-end' >SEO Services</h3>
-<p className='text-end'>Better SEO means you have to
+<h4  >SEO Services</h4>
+ <p>Better SEO means you have to
 spend less on SEM. This is the
 SEO philosophy embedded in
 our efforts.</p>
-</div>
-<div> <img src={DMSicon3} style={{marginLeft:"30px"}} /></div>
-</div>
 
 </div>
-</div>
+ 
+<div> <img src={DMSicon3}  style={{marginLeft:"30px"}}/></div>
+                        
+                    
+                    
+                    
+                    </div> 
+                    
+                    
+                    </div>
 
-<div className='col-md-4 dmsimg ' >
+                   
 
 
-  
-</div>
-<div className='col-md-4' >
 
 
-    <div className='col-md-12' style={{marginBottom:"100px"}} >
 
-    <div className="d-flex " >
-    <div> <img src={DMSicon2} style={{marginRight:"30px"}} /></div>
-<div>
-<h3 className='text-left'>Google Paid Ads</h3>
-<p className='text-left' >We are Google ads certified and have
+
+
+
+                    
+                    
+                    
+                    
+                    <span class="verticle-line" style={{  marginTop:"50px", marginRight:"10px",opacity:"20%", backgroundColor:"#B3B3B3",width:"1px", display:"inline-block" , height:"200px",borderLeft:"1px solid black"}}>  </span>
+                     
+                  
+                    
+                    </div>
+                                              
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                                          
+                     
+                    
+                                           
+                                          </div>
+                    
+
+
+
+
+
+{/* 
+col2right */}
+
+<div className="col-md-4" >
+                    
+                    <div className='section2 d-flex'>
+                          
+                    <span class="vr" style={{  marginTop:"55px", marginLeft:"10px",opacity:"20%", backgroundColor:"#B3B3B3",width:"1px", display:"inline-block" , height:"200px",borderLeft:"1px solid black"}}>  </span>
+                    <div className='DMScontent'>
+                    <div className='DMGPA d-flex'>
+                    <div> <img src={DMSicon2}  style={{marginRight:"30px"}}/></div>
+                   <div>
+
+
+                   <h4  >Google Paid Ads</h4>
+                    <p>We are Google ads certified and have
 the expertise to run successful paid advertising campaigns on Google to bring your target results.</p>
-</div>
+                 
+                   </div>
+                    
+                   
+                    
+                    </div>
+                    <div className='DMCM d-flex' >
+                    <div> <img src={DMSicon4}  style={{marginRight:"30px"}}/></div>
+                    <div>
 
-</div>
 
-    </div>
-
-    <div className='col-md-12'  >
-
-<div className="d-flex "  >
-<div> <img src={DMSicon4} style={{marginRight:"30px"}} /></div>
-<div>
-<h3  className='text-left'>Content Marketing
-</h3>
-<p className='text-left' >We provide content that is
+<h4  >Content Marketing</h4>
+ <p>We provide content that is
 strictly based on user intent. As
 part of content marketing strategy our team writes, edits, develops and promotes content that is search engine friendly.</p>
-</div>
-
 
 </div>
+ 
 
-</div>
-</div>
+                        
+                    
+                    
+                    
+                    </div> 
+                    
+                    
+                    </div>
+
+                   
 
 
 
+
+
+
+
+
+                    
+                    
+                    
+                  
+                     
+                  
+                    
+                    </div>
+                                              
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                                          
+                     
+                    
+                                           
+                                          </div>
+
+                   
             </div>
            
 </div>

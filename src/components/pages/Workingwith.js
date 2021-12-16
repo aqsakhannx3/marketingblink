@@ -11,10 +11,10 @@ import think from "../images/think.jpg"
 import zendesk from "../images/zendesk.jpg"
 import microsoft from "../images/microsoft.jpg"
 import typeform from "../images/typeform1.jpg"
-import img1 from "../images/logos/google.jpg"
-import img2 from "../images/logos/facebook.jpg"
-import img3 from "../images/logos/instagram.jpg"
-import img4 from "../images/logos/youtube.jpg"
+import img1 from "../images/google1.jpg"
+import img2 from "../images/facebook1.jpg"
+import img3 from "../images/instagram1.jpg"
+import img4 from "../images/youtube.jpg"
 import img5 from "../images/logos/pinterest.jpg"
 import img6 from "../images/logos/tiktok.jpg"
 import img7 from "../images/logos/panadoc.jpg"
@@ -34,7 +34,7 @@ const Workingwith = () => {
 
 
 
-            <div className=" workingwith" >
+            <section className=" workingwith" >
 
 
 
@@ -54,6 +54,7 @@ const Workingwith = () => {
     <section className="logo-area slider">
                 <div className="slide">
                     <img src={img1} />
+                    
                 </div>
                 <div className="slide">
                 <img src={img2}/>
@@ -155,7 +156,7 @@ const Workingwith = () => {
         </div>
                   </div> */}
                 </div>
-            </div>
+            </section>
 
 
 

@@ -23,22 +23,36 @@ import { Link } from "react-router-dom"
 const Footer = () => {
     return (
 
-        <div className="container-fluid Footer">
+        <section className=" Footer">
         <div className="container ">
 
             <div className="row align-items-center footerrow1"  >
 
 
-                <div className="col-md-4 Footerleft " style={{borderRight:"1px solid #F8F8F8"}}>
+                <div className="col-md-4 Footerleft " >
 
-                    <img src={marketingblink} className='w-100 h-100' />
+               
+
+
+                  <img src={marketingblink} className='w-100 h-100'  />
+
+
+                
+
                  
                 </div>
                 
 
                 
-                <div className="col-md-4 Footermiddle" style={{borderRight:"1px solid #F8F8F8"}}>
-                    <ul style={{textAlign:"left"}}>
+                <div className="col-md-4 Footermiddle">
+
+                                      
+ <div className='d-flex align-items-center'>
+
+
+
+ <div class="vr" style={{height:"160px", borderLeft:"1px solid #F8F8F8",width:"2.41px"}}></div>
+                    <ul >
 
                         <li>CONTACT DETAILS</li>
                         <li>+1-646-880-3043</li>
@@ -47,6 +61,7 @@ const Footer = () => {
                             <br/>
                             New York, NY 10038</li>
                     </ul>
+ </div>
                    
 
 
@@ -55,37 +70,63 @@ const Footer = () => {
                 </div>
                 <div className="col-md-4 footericons">
 
-                    <div className="d-flex align-items-center justify-content-center" >
-                        <div >  <img src={fb} className="me-2" /></div>
-                        <div> <img src={googleicon} className="me-2" /></div>
-                        <div><img src={twittericon} className="me-2" /></div>
-                        <div> <img src={instagramicon} className="me-2" /></div>
+                    <div className="d-flex  align-items-center justify-content-around" >
+                    <div class="vr" style={{height:"160px", borderLeft:"1px solid #F8F8F8",width:"2.41px"}}></div>
 
-                    </div>
-                    <div className="mt-3 d-flex align-items-center justify-content-center" >
-
-                        <img src={visa} className="me-2" />
-                        <img src={mastercard} className="me-2" />
-
-                        <img src={footerimg3} className="me-2" />
-
-                        <img src={footerimg4} className="me-2" />
+                    <div className='d-flex flex-column'>
 
 
-                    </div>
-                    <div className="mt-3 d-flex align-items-center justify-content-center" >
+                        <div className='d-flex mb-3'>
 
-                       
-                        <img src={footerimg5} className="me-2" />
+                        <img src={fb} className="me-2" />
+<img src={googleicon} className="me-2" />
+<img src={twittericon} className="me-2" />
+<img src={instagramicon} className="me-2" />
+                        </div>
 
-                        <img src={footerimg6} className="me-2" />
+
+                        <div className='d-flex mb-3'>
+
+<img src={visa} className="me-2" />
+<img src={mastercard} className="me-2" />
+<img src={footerimg3} className="me-2" />
+<img src={footerimg4} className="me-2" />
+</div>
+
+
+<div className='d-flex'>
+
+<img src={footerimg5} className="me-2" />
+<img src={footerimg6} className="me-2" />
+<img src={footerimg7} className="me-2" />
+<img src={footerimg8} className="me-2" />
+</div>
+
+
+</div>
+
+
+
+
+
                         
-                        <img src={footerimg7} className="me-2" />
+                        <div>
 
-                        <img src={footerimg8} className="me-2" />
+
+</div>
+                    
+                    <div>
 
 
                     </div>
+                    
+                    
+                    </div>
+
+
+                   
+                    
+                    
 
 
 
@@ -531,7 +572,7 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-        </div>
+        </section>
     )
 }
 

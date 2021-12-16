@@ -1,15 +1,62 @@
-h2{
-    text-align: center;
-    padding:0 0 70px;
-  
 
-
-}
 .client-area{
 
-    padding:50px 50px;
+   margin-top: 55px;
+
+
 
 }
+
+.logo-area .slide{
+
+  padding:10px;
+
+
+}
+
+
+.logo-area .slide img{
+
+    width: 70%;
+    height: auto;
+  
+   
+}
+
+
+
+
+
+
+.slick-dots {
+	
+	list-style-type: none;
+  }
+
+
+.slick-dots li button {
+
+
+ 
+  
+    border: none;
+    border-radius: 100%;
+    background-color:  var(--hovercolor)  !important;
+    
+    text-indent: -9999px;
+}
+.slick-dots  li.slick-active button {
+    background-color: var( --headingcolor) !important;
+    width: 50px !important;
+    border-radius: 20px;
+    height: 20px;
+    
+    
+  
+}
+
+
+
 
 /* .controls{
     display: flex;
@@ -37,8 +84,8 @@ h2{
     margin: 0 20px;
 } */
 /* isko may ny 100 sy 50 kiya hai or margin hatya hai */
-.slick-slide img{
-    width: 50%;
+/* .slick-slide img{
+    width: 60%;
   height: auto;
 }
 
@@ -129,4 +176,4 @@ h2{
     }
  
     
-}
+} */
