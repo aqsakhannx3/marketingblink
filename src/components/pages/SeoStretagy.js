@@ -50,7 +50,7 @@ const SeoStretagy = () => {
                         <img src={SeoStrategyimg} className="seoimg"/>
                        
                       </div> 
-                              <div className=' SeoStrategycontent' style={{marginTop:"100px"}}>
+                              <div className='col-md-10 SeoStrategycontent' style={{marginTop:"100px"}}>
                               <h4>Comprehensive SEO Strategy</h4>
                 <h3>
                
@@ -65,101 +65,114 @@ const SeoStretagy = () => {
              
             
 
-                             
-                               
-                 <div className='container' style={{marginTop:"50px"}}  >
+                            
 
 
-<div className="d-flex SeoStrategytabs " style={{marginTop:"40px"}}    >
-<div style={{backgroundColor:"#fff" , boxShadow:"0 0 60px #EFF2F5",borderRadius:"24px"}} className=" nav flex-column    nav-pills " id="v-pills-tab" role="tablist" aria-orientation="vertical">
 
-<button  className="nav-link active text-start " id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">On-Page SEO</button>
-<button className="nav-link text-start  " id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Off-Page SEO</button>
-<button className="nav-link text-start " id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">SEO Gap Analysis</button>
-<button className="nav-link text-start " id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Keyword Research
-</button>
-</div>
-<div style={{backgroundColor:"#fff" ,boxShadow:"0 0 60px #EFF2F5" , borderRadius:"24px"}} className="  tabContent tab-content " id="v-pills-tabContent" >
-{/* On-Page SEO */}
+                             <div class=" tabsection d-flex align-items-start">
+  <div  style={{marginLeft:"20px",marginTop:"30px",marginBottom:"30px"}} class="  nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">On-Page SEO</button>
+    <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Off-Page SEO</button>
+    <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">SEO Gap Analysis</button>
+    <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Keyword Research</button>
+  </div>
+  <div  class="tab-content" id="v-pills-tabContent">
+    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
 
-<div style={{backgroundColor:"#fff" , boxShadow:"0 0 60px #EFF2F5",borderRadius:"24px"}} className="  tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+           <div  className='card'  >
 
-<div className="card tabcard " >
-
-<div className="card-body">
-<img src={search} style={{width:"40px",height:"40px"}} />
-<p className="card-text">
+         
+          <img src={search} style={{width:"39px",height:"39px"}} />
 
 
- From link building to thorough backlink audit we provide off page services that help you ace the search engine rankings and enhance your domain authority.</p>
-</div>
-</div>
 
 
-</div>
-{/* On-Page SEO end */}
-<div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+<p >
 
-<div className="card tabcard " >
 
-<div className="card-body">
-<img src={search} style={{width:"40px",height:"40px"}} />
-<p className="card-text">
+From link building to thorough backlink audit we provide off page services that help you ace the search engine rankings and enhance your domain authority.</p>
+          </div>
+          
+   
+    </div>
+    <div  class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+
+
+
+
+
+    <div  className='card'  >
+
+         
+<img src={search} style={{width:"39px",height:"39px"}} />
+
+
+
+
+<p >
 
 
 From link building to thorough backlink audit we provide off page services that help you ace the search engine rankings and enhance your domain authority.</p>
 </div>
-</div>
-
-</div>
-
-<div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-
-<div className="card tabcard " >
-
-<div className="card-body">
-<img src={search} style={{width:"40px",height:"40px"}} />
-<p className="card-text">
+    </div>
+    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
 
 
-From link building to thorough backlink audit we provide off page services that help you ace the search engine rankings and enhance your domain authority.</p>
-</div>
-</div>
-
-</div>
-<div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
 
 
-<div className="card tabcard " >
 
-<div className="card-body">
-<img src={search} style={{width:"40px",height:"40px"}} />
-<p className="card-text">
+    <div  className='card'  >
+
+         
+<img src={search} style={{width:"39px",height:"39px"}} />
+
+
+
+
+<p >
 
 
 From link building to thorough backlink audit we provide off page services that help you ace the search engine rankings and enhance your domain authority.</p>
 </div>
-</div>
+    </div>
+    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
 
 
+
+
+    <div  className='card'  >
+
+         
+<img src={search} style={{width:"39px",height:"39px"}} />
+
+
+
+
+<p >
+
+
+From link building to thorough backlink audit we provide off page services that help you ace the search engine rankings and enhance your domain authority.</p>
+</div>
+    </div>
+  </div>
 </div>
 
-</div>
-
-</div>
-
-</div>
     
 <button className="btn  SeoStrategybtn" >Request Free SEO Audit</button>
+
+
+                             </div>
+
+
 
 </div>
              
            
                  
-             <button className="btn  SeoStrategybtn" >Request Free SEO Audit</button>
+          
                 
                 
-                 </div>
+             
            
 
                         
