@@ -49,9 +49,9 @@ const Footer = () => {
                                       
  <div className='d-flex align-items-center'>
 
+{/* 
 
-
- <div class="vr" style={{height:"160px", borderLeft:"1px solid #F8F8F8",width:"2.41px"}}></div>
+ <div class="vr" style={{height:"160px", borderLeft:"1px solid #F8F8F8",width:"2.41px"}}></div> */}
                     <ul >
 
                         <li>CONTACT DETAILS</li>
@@ -71,7 +71,7 @@ const Footer = () => {
                 <div className="col-md-4 footericons">
 
                     <div className="d-flex  align-items-center justify-content-around" >
-                    <div class="vr" style={{height:"160px", borderLeft:"1px solid #F8F8F8",width:"2.41px"}}></div>
+                    {/* <div class="vr" style={{height:"160px", borderLeft:"1px solid #F8F8F8",width:"2.41px"}}></div> */}
 
                     <div className='d-flex flex-column'>
 

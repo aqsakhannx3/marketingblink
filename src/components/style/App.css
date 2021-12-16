@@ -1108,7 +1108,9 @@ text-align: left ;
   border-top: 1px solid #F8F8F8;
   border-bottom: 1px solid #F8F8F8;
 }
-
+.Footermiddle{
+   border-left: 1px solid #F8F8F8;;
+}
 .Footermiddle ul{
 
  list-style: none;
@@ -1121,9 +1123,12 @@ text-align: left ;
  
  line-height: 24px;
 }
-
+.footericons{
+  border-left: 1px solid #F8F8F8;;
+}
 .footerlinks{
-
+  border-left: 1px solid #F8F8F8;;
+ 
   padding:10px;
   margin-top: 60px !important;
 }
