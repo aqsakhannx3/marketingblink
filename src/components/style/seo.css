@@ -6,15 +6,25 @@
   .SeoStrategyimg{
     position: relative;
     top: 0;
-    bottom: 0;
+   left: 0;
+ 
+   width:400px
   }
   .SeoStrategyimg .seoimg{
   
+  
+    top: 70px;
+         left:400px;
+     position: absolute;
+     z-index: -1;
+ 
+    
+/*   
     position: absolute;
    
     left: 350px;
     top:10px;
-  z-index: -1;
+  z-index: -1; */
   }
 
   .SeoStrategyleft .SeoStrategyleftimg img{

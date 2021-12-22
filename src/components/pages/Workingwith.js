@@ -1,162 +1,56 @@
 import React from 'react'
-import google from "../images/google1.jpg"
-import fb from "../images/facebook1.jpg"
-import instagram from "../images/instagram1.jpg"
-import pinterest from "../images/pinterest1.jpg"
-import youtube from "../images/youtube.jpg"
-import heart from "../images/heart.jpg"
-import tiktok from "../images/tiktok.jpg"
-import panadoc from "../images/panadoc.jpg"
-import think from "../images/think.jpg"
-import zendesk from "../images/zendesk.jpg"
-import microsoft from "../images/microsoft.jpg"
-import typeform from "../images/typeform1.jpg"
-import img1 from "../images/google1.jpg"
-import img2 from "../images/facebook1.jpg"
-import img3 from "../images/instagram1.jpg"
-import img4 from "../images/youtube.jpg"
-import img5 from "../images/logos/pinterest.jpg"
-import img6 from "../images/logos/tiktok.jpg"
-import img7 from "../images/logos/panadoc.jpg"
+import artheart1 from "../../images/art-heart-1.webp"
+import artheart2 from "../../images/art-heart-2.webp"
+import art2 from "../../images/art2.webp"
+import heart from "../../images/heart.jpg"
+import google from "../../images/google1.jpg"
+import facebook from "../../images/facebook1.jpg"
+import instagram from "../../images/instagram1.jpg"
+import youtube from "../../images/youtube.jpg"
+import pinterest from "../../images/logos/pinterest.jpg"
 
-import img8 from "../images/logos/think.jpg"
+import tiktok from "../../images/logos/tiktok.jpg"
+import panadoc from "../../images/panadoc.jpg"
+import think from "../../images/logos/think.jpg"
 
-import img9 from "../images/logos/microsoft.jpg"
-
-
-
-
-import img10 from "../images/logos/zendesk.jpg"
-// import "../style/slick.css"
-import "../style/logoslide.css"
+import microsoft from "../../images/logos/microsoft.jpg"
+import zendesk from "../../images/logos/zendesk.jpg"
 const Workingwith = () => {
     return (
 
 
 
-            <section className=" workingwith" >
-
-
-
-                <div className='container workingwithcontainer' >
-
-                  <div className='workingwithtext' >
-
-                  <h3>Platforms We  <span><img src={heart} className=" ms-2 text-center" /></span> Working With</h3>
-                  </div>
-
-
-
-
-
-          
-    <div className='client-area'>
-    <section className="logo-area slider">
-                <div className="slide">
-                    <img src={img1} />
-                    
-                </div>
-                <div className="slide">
-                <img src={img2}/>
-                </div>
-                <div className="slide">
-                <img src={img3}/>
-                </div>
-                <div className="slide">
-                <img src={img4}/>
-                </div>
-                <div className="slide">
-                <img src={img5}/>
-                </div>
-                <div className="slide">
-                <img src={img6}/>
-                </div>
-                <div className="slide">
-                <img src={img7}/>
-                </div>
-                <div className="slide">
-                <img src={img8}/>
-                </div>
-                <div className="slide">
-                <img src={img9}/>
-                </div>
-                <div className="slide">
-                    
-                    <img src={img10}/> 
-                   
-                </div>
-            </section>
+         
+<section className=" workingwith" data-aos="fade-up" data-aos-duration="900">
+	<div className="particles_7">
+			  <img src={artheart1} alt="" width="50" height="50" />
+	</div>
+	<div className="particles_8">
+			  <img src={artheart2} alt="" width="87" height="87" />
+	</div>
+	<div className="particles_6 gt3_rotated_element">
+			  <img src={art2} alt="" width="41" height="53" />
+	</div>
+  <div className="container workingwithcontainer" >
+    <div className="workingwithtext" >
+      <h3>Platforms We <span><img src={heart} className=" ms-2 text-center" /></span> Working With</h3>
     </div>
-
-{/* 
-                  <div className='logo-slider align-items-center' >
-
-
-                  <div class="item">
-            <a href="#">
-                <img src={google}/>
-            </a>
-        </div>
-
-
-        <div class="item">
-            <a href="#">
-                <img src={fb}/>
-            </a>
-        </div>
-        <div class="item">
-            <a href="#">
-                <img src={instagram}/>
-            </a>
-        </div>
-
-        <div class="item">
-            <a href="#">
-                <img src={pinterest}/>
-            </a>
-        </div>
-
-        <div class="item">
-            <a href="#">
-                <img src={youtube}/>
-            </a>
-        </div>
-
-        <div class="item">
-            <a href="#">
-                <img src={tiktok}/>
-            </a>
-        </div>
-
-        <div class="item">
-            <a href="#">
-                <img src={panadoc}/>
-            </a>
-        </div>
-        <div class="item ">
-            <a href="#" >
-                <img src={think} />
-            </a>
-        </div>
-        
-        <div class="item">
-            <a href="#">
-                <img src={typeform}/>
-            </a>
-        </div>
-        <div class="item">
-            <a href="#">
-                <img src={microsoft}/>
-            </a>
-        </div>
-        <div class="item">
-            <a href="#">
-                <img src={zendesk}/>
-            </a>
-        </div>
-                  </div> */}
-                </div>
-            </section>
+    <div className="client-area">
+      <section className="logo-area slider">
+        <div className="slide"> <img src={google} /> </div>
+        <div className="slide"> <img src={facebook}/> </div>
+        <div className="slide"> <img src={instagram}/> </div>
+        <div className="slide"> <img src={youtube}/> </div>
+        <div className="slide"> <img src={pinterest}/> </div>
+        <div className="slide"> <img src={tiktok}/> </div>
+        <div className="slide"> <img src={panadoc}/> </div>
+        <div className="slide"> <img src={think}/> </div>
+        <div className="slide"> <img src={microsoft}/> </div>
+        <div className="slide"> <img src={zendesk}/> </div>
+      </section>
+    </div>
+  </div>
+</section>
 
 
 

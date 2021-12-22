@@ -1,57 +1,65 @@
 import React from 'react'
-import logo from "../images/logo.jpg"
+import logo from "../../images/logo-marketingblink.png"
 import { Link } from 'react-router-dom'
 const Navbar = () => {
     return (
-        <section className="navbarsection"  >
-          <div className="container"  >
-        <nav className=" navbar navbar-expand-lg navbar-light vg-white "  >
-        
-          
-                  <Link to="/"   >
-                  <img src={logo} alt="logo" className='logo' />
-                  </Link>
-          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent"  >
-      
 
 
-           <ul className="navbar-nav ms-3 me-3  mb-lg-0"  >
-              <li className="nav-item" >
-             
-                <Link className="nav-link active" aria-current="page" to="/">Home</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/plans" > Plans</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/socialmedia">Social Media Marketing</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/seoservices" >SEO Services  </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/paidmarketing" >   Paid Marketing  </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/contentmarketing" >  Content Marketing  </Link>
-              </li>
-            
-            </ul>
-            <button className="btn navbarbtn btn-success" >Let's Connect</button>
-           </div>
-        
-            
-             
-           
-          
-       
-      
-      </nav>
-      </div>
-      </section>
+
+
+
+<section className="navbarsection navigation-wrap start-header start-style"  >
+  <div className="container">
+	   <div className="row">
+		  
+		   
+		   <div className="col-12">
+					<nav className="navbar navbar-expand-md navbar-light">
+					
+						<Link className="navbar-brand" to="/" target="_blank">
+              
+              <img src={logo} alt="marketingblink logo" width="160" className="logo"/></Link>	
+						
+						<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span className="navbar-toggler-icon"></span>
+						</button>
+						
+						<div className="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul className="navbar-nav ml-auto py-4 py-md-0">
+								
+								<li className="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+									<Link className="nav-link active" to="/">Home</Link>
+								</li>
+								<li className="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+									<Link className="nav-link" to="/">Plans</Link>
+								</li>
+								
+								<li className="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+									<Link className="nav-link" to="/">Social Media Marketing</Link>
+								</li>
+								<li className="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+									<Link className="nav-link" to="/">SEO Services</Link>
+								</li>
+								<li className="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+									<Link className="nav-link" to="/">Paid Marketing</Link>
+								</li>
+								<li className="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+									<Link className="nav-link" to="/">Content Marketing</Link>
+								</li>
+								<li className="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+									<Link className="nav-link btn-success" to="/">Let's Connect</Link>
+								</li>
+							</ul>
+						</div>
+						
+					</nav>		
+				</div>
+	  </div>
+
+  </div>
+</section>
+
+     
     )
 }
 

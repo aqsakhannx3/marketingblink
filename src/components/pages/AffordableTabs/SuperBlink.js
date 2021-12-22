@@ -8,20 +8,20 @@ import superblink1 from "../../images/logos/superblink1.png"
 const SuperBlink = () => {
     return (
       
-<section className='SuperBlink'  style={{boxShadow:"1px 4px 80px #dbdbdb"}}  style={{borderRadius:"100px"}}  >
-        <div className="affordableImg">
-        {/* <img src={superblink3} className="affordableimg1"/> */}
+<section className='SuperBlink'    >
+        {/* <div className="affordableImg">
+        
             <img src={superblink1} className="affordableimg1"/>
-  {/* <img src={affordableimg1} className="affordableimg1"/> */}
+  
   <img src={affordableimg2} className="affordableimg2"/>
     
-        </div>
+        </div> */}
     <div className="row    SuperBlinkrow justify-content-around "  >
 
            
 
 
-        <div className="col-md-4" style={{  paddingTop:"56px",paddingBottom:"56px",paddingLeft:"55px"}} >
+        <div className="col-md-4" style={{  paddingTop:"56px",paddingBottom:"56px",paddingLeft:"56px"}} >
 
 
             <p>Social Media Services</p>
@@ -169,7 +169,7 @@ International PPC campaign management <span>(English only campaigns)</span>
         <div className="col-md-4  "  >
 
            
-            <img src={svgiconmain} className='w-100 svgimg' style={{marginTop:"10px"}}   />
+            <img src={svgiconmain} className='w-100 svgimg'    />
                 
                  <div className='SuperblinkBtn d-flex flex-column align-items-center justify-content-center'>
                  <button  className=" SuperblinkBtn1 btn " >000-123-456</button>
@@ -179,7 +179,7 @@ International PPC campaign management <span>(English only campaigns)</span>
       
                
                  <div style={{marginRight:"10px"}}>
-                 <img src={affordableman} className=' w-100 svgman'/>
+                 <img src={affordableman} className=' w-100 svgman' />
 
                  </div>
 {/* <img src={svgicon}/> */}
