@@ -1,5 +1,6 @@
 
 // import './components/style/App.css';
+
 import "./style/style.css"
 import "./style/rotating.css"
 import "./style/font-awesome/css/font-awesome.min.css"
@@ -21,11 +22,11 @@ import Footer from "./components/pages/Footer"
 import AOS from "aos"
 
 
-// import "./components/style/animation.css"
+
 
 
 function App() {
-AOS.init();
+  AOS.init({once:true})
 
   return (
     <div className="App">
@@ -36,7 +37,9 @@ AOS.init();
 
 
       <Router>
-
+      <Routes>
+        <Route path="/"></Route>
+      </Routes>
 
         <Navbar/>
         <Header/>

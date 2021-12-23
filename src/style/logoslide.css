@@ -16,15 +16,26 @@
   border-radius: 100%;
   background-color: var(--headingcolor) !important;
   text-indent: -9999px;
+	width: 15px!important;
+    height: 15px!important;
+
 }
+
 .slick-dots li.slick-active button {
   background-color: var( --hovercolor) !important;
-  /* width: 50px !important;*/
+   width: 30px !important;
   border-radius: 20px;
-  height: 20px;
+  height: 15px;
+  background: linear-gradient(to left, #e25c43, #e25c43) no-repeat, linear-gradient(to right, #e25c43, #e25c43) no-repeat;
+    background-size: 51% 100%, 51% 100%;
+    background-color: #888;
+    background-position: -105% 0, 205% 0;
+    transition: background-position 0.2s, background-color 0.01s 0.2s;
+	margin-left: -10px;
 }
 .slick-active .slick-dots li button {
   background-color: var(--headingcolor) !important;
+	
 }
 /* .controls{
     display: flex;

@@ -85,7 +85,7 @@
     margin-right: 0;
 }
 .lead-box .tabsection .card {
-    
+    min-height: 200px;
     color: white;
     padding: 25px;
     width: 100%;
@@ -252,8 +252,10 @@ background: linear-gradient(90deg, #FF4969 -20%, #FC9D44 115%);
 .SeoStrategybtn{
  
  
-    border: 2px solid var(--headingcolor);
-      color: var(--headingcolor);
+    /* border: 2px solid var(--headingcolor) !important; */
+    background-color: var(--headingcolor) !important;
+    color: white !important;
+      /* color: var(--headingcolor); */
       font-size: 14px ;
       font-family: 'Rubik', sans-serif ;
       font-weight: bold;
@@ -271,10 +273,10 @@ background: linear-gradient(90deg, #FF4969 -20%, #FC9D44 115%);
 
 
     .SeoStrategybtn:hover{
+ border: 2px solid var(--headingcolor) !important;
  
- 
-        color: white !important;
-       background-color: var(--headingcolor) !important;
+       background-color: white !important;
+      color: var(--headingcolor) !important;
        transition: 0.5;
        
       

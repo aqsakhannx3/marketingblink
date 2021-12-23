@@ -6413,7 +6413,11 @@ div:not(.packery_wrapper) .blog_post_preview .listing_meta .post_author a:before
   margin-bottom: 0
 }
 .copyright a {
-  color: inherit
+    color: inherit;
+    text-decoration: underline;
+}
+.copyright a:hover{
+	    color: var(--hovercolor) !important;
 }
 .main_footer .copyright > .container > .row {
   padding-top: 20px;

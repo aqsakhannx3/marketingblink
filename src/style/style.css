@@ -69,7 +69,7 @@ line-height: 19px;
   
 text-align: center;
   
-font-size: 16px;
+font-size: 14px;
   
 line-height: normal;
   
@@ -321,6 +321,7 @@ background-size: 100%;
 	margin-left: -35px;
 }
 
+.shadow-bottom {}
 /*.HeaderInput{
  
 
@@ -945,9 +946,9 @@ background-color: var(--headingcolor);
 
 
 
-.Affordabletabs li button{
+.Affordabletabs li button.nav-link{
 
-color: var(--headingcolor);
+
 font-family: 'Rubik', sans-serif;
 font-weight: 500;
 text-transform: uppercase;
@@ -962,9 +963,10 @@ margin-bottom: 10px;
 
 .Affordabletabs .nav-item:after{
 	display: none;
+	background-color: white !important;
 }
 
-.Affordabletabs li button:hover {
+.Affordabletabs li button.nav-link:hover {
 	color: #fff!important;
 	background: #F0A056;
 	border: 2px solid transparent !important;
@@ -972,9 +974,9 @@ background: -webkit-linear-gradient(90deg, #FC9D44 -20%, #FF4969 115%);
 background: -moz-linear-gradient(90deg, #FC9D44 -20%, #FF4969 115%);
 background: linear-gradient(90deg, #FC9D44 -20%, #FF4969 115%);
 }
-  .Affordabletabs li  .active{
+  .Affordabletabs li  button.active{
     color: #fff!important;
-    border:none !important;
+    border:2px solid transparent !important;
 	background: #F0A056;
 background: -webkit-linear-gradient(90deg, #FF4969 -20%, #FC9D44 115%);
 background: -moz-linear-gradient(90deg, #FF4969 -20%, #FC9D44 115%);
@@ -1446,7 +1448,7 @@ background: linear-gradient(90deg, #FC9D44 -20%, #FF4969 115%);
   font-size: 14px;
   font-weight: 400;
   color: var(--headingcolor);
-
+  padding-bottom: 50px;
 }
 
 
@@ -1673,7 +1675,7 @@ background: linear-gradient(90deg, #FC9D44 -20%, #FF4969 115%);
 .particles_8 {
     position: absolute;
     left: 50px;
-    top: 50px;
+    top: 0px;
 }
 
 
@@ -1708,6 +1710,101 @@ background: linear-gradient(90deg, #FC9D44 -20%, #FF4969 115%);
     right: 150px;
     top: -100px;
 }
+
+.particles_12 {
+    position: absolute;
+    left: 35%;
+    top: -100px;
+}
+
+.particles_13 {
+    position: absolute;
+    right: 100px;
+    top: 300px;
+}
+
+.particles_13 img {
+  transform: rotate(0deg);
+}
+
+.particles_14 {
+    position: absolute;
+    left: 75px;
+    top: 250px;
+}
+
+.particles_14 img {
+  transform: rotate(90deg);
+}
+
+.particles_15 {
+    position: absolute;
+    right: 180px;
+    top: 500px;
+}
+
+.particles_16 {
+    position: absolute;
+    right: 400px;
+    top: -80px;
+}
+
+.particles_16 img {
+  transform: rotate(260deg);
+}
+
+.particles_17 {
+    position: absolute;
+    left: 30px;
+    top: -35px;
+}
+
+.particles_17 img {
+  transform: rotate(90deg);
+}
+
+.particles_18 {
+    position: absolute;
+    right: 80px;
+    top: 190px;
+}
+
+.particles_18 img {
+  transform: rotate(180deg);
+}
+
+.affordable .container {
+	position: relative;
+}
+.particles_19 {
+    position: absolute;
+    left: 80px;
+    bottom: -90px;
+}
+
+.particles_19 img {
+  transform: rotate(120deg);
+}
+
+.particles_20 {
+    position: absolute;
+    right: 200px;
+    bottom: -70px;
+}
+
+.particles_21 {
+    position: absolute;
+    right: 80px;
+    top: 30px;
+}
+
+.particles_21 img {
+  transform: rotate(180deg);
+}
+
+
+
+
 
 .gt3_rotated_element {
     -webkit-animation: rotatedelement 5s linear infinite;
@@ -1750,6 +1847,23 @@ background: linear-gradient(90deg, #FC9D44 -20%, #FF4969 115%);
 	 .navbarsection .col-cs-6 {
 		 width: 50%;
 	 }*/
+	 
+	 .particles_19,
+	 .particles_20 {
+		 display: none;
+	 }
+	 
+	 .particles_21 {
+    right: 30px;
+    top: 20px;
+	}
+	 
+	 .particles_8 {
+    position: absolute;
+    left: 50px;
+    top: 0px;
+    display: none;
+	}
 	 .whychoose {
     margin-top: 50px;
 	}
@@ -1862,7 +1976,7 @@ background: linear-gradient(90deg, #FC9D44 -20%, #FF4969 115%);
     left: 0;
 	}
 	
-	.Affordabletabs li button {
+	.Affordabletabs li button.nav-link {
 		width: 130px;
     height: 40px;
 	}
@@ -1874,6 +1988,46 @@ background: linear-gradient(90deg, #FC9D44 -20%, #FF4969 115%);
 }
 
 @media only screen and (max-device-width: 767px) {
+	
+	.particles_2 {
+    right: 50px;
+    top: 90px;
+	}
+	.footerbtn button {
+		    margin: 0 auto;
+    display: block;
+	}
+	
+	.ap-patteren-2 { display: none;}
+	.particles_4 {
+    left: inherit;
+    top: 0;
+    right: 25px;
+	}
+	
+	.particles_5,
+	.particles_13,
+	.particles_14,
+	.particles_15,
+	.particles_16{
+    display: none;
+	}
+	
+	.footerend {
+    padding-bottom: 30px;
+	}
+	.SeoStrategy {
+    margin-top: 0!important;
+	}
+	
+	.particles_6 {
+    right: 50px;
+    top: 0;
+	}
+	.particles_11 {
+    right: 50px;
+    top: 0;
+	}
 	.hero {
     position: inherit;
 }
@@ -2009,6 +2163,7 @@ background: linear-gradient(90deg, #FC9D44 -20%, #FF4969 115%);
 	
 	.SeoStrategybtn {
 		    margin: 30px 25px;
+       
 	}
 	.DigitalCoomunication {
     margin-top: 0;
@@ -2201,7 +2356,7 @@ background: linear-gradient(90deg, #FC9D44 -20%, #FF4969 115%);
 	.Affordabletabs ul li {
     	width: 18%;
 	}
-	.Affordabletabs li button {
+	.Affordabletabs li button.nav-link {
 		width: 100%;
     height: 44px;
 	}
@@ -2209,26 +2364,80 @@ background: linear-gradient(90deg, #FC9D44 -20%, #FF4969 115%);
 
 @media only screen and (max-device-width: 575px) {
 	
+	.particles_1 {
+    right: 20px;
+    top: 20px;
+	}
+	.particles_2 {
+		display: none;
+	}
+	.particles_17 {
+    left: 0px;
+    top: 0;
+	}
+	
+	.particles_12 {
+    top: -50px;
+	}
+	.smmmarketingrow .SMMcol {
+		display: block;
+		width: 100%;
+		flex: auto;
+	}
+	
+	.smmmarketingrow .SMMcol .card {
+    min-height: auto;
+	}
+	
+	.smmmarketingrow .SMMcol .card h4 { margin-top: 16px;}
+
+	.Logoslider {
+    	padding: 35px 10px 30px;
+	}
+	
+	.Logoslider ul li {
+    display: inline-block;
+    width: 25%;
+	text-align: center!important;	
+	}
+	
+	.workingwithtext h3 {
+    font-size: 18px;
+    line-height: normal;
+	}
+	
+	.workingwithtext h3 img {
+    width: 25px;
+    margin: 0!important;
+	}
+	
+	.logo-area .slide {
+    padding: 0;
+	}
+	.slick-dots {
+    bottom: -35px;
+	}
+	
+	.particles_6 {
+    position: absolute;
+    right: 20px;
+    top: 0;
+	}
+	
 	.Affordabletabs ul {
 		margin-bottom: 0!important;
 	}
 	.Affordabletabs ul li {
     	width: 18%;
 	}
-	.Affordabletabs li button {
+	.Affordabletabs li button.nav-link {
 		width: 100%;
     height: 44px;
 		line-height: 1.2em;
 	}
-	
-	.Logoslider ul li {
-    display: inline-block;
-    width: 50%;
+	.smmmarketingleft {
+    padding-top: 0;
 	}
-	.Logoslider ul li:nth-child(1) { text-align: left;}
-	.Logoslider ul li:nth-child(2) {text-align: right;}
-	.Logoslider ul li:nth-child(3) {text-align: left;}
-	.Logoslider ul li:nth-child(4) { text-align: right;}
 	
 	img.blink-label {
     border-radius: 0 20px 0 0;
