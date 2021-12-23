@@ -11,37 +11,37 @@ const DMServices = () => {
     return (
 
 
-<div class="DMServicessection">
-<div class="particles_12 gt3_rotated_element">
+<div className="DMServicessection">
+<div className="particles_12 gt3_rotated_element">
 			  <img src={art12} alt="" width="36" height="50"/>
 	</div>
-	<div class="particles_13 gt3_rotated_element">
+	<div className="particles_13 gt3_rotated_element">
 			  <img src={art2} alt="" width="45" height="44"/>
 	</div>
-	<div class="particles_14 gt3_rotated_element">
+	<div className="particles_14 gt3_rotated_element">
 			  <img src={art2} alt="" width="45" height="44"/>
 	</div>
-	<div class="particles_15 gt3_rotated_element">
+	<div className="particles_15 gt3_rotated_element">
 			  <img src={art3} alt="" width="41" height="53"/>
 		  </div>
 	
-	<div class="DMServicespatteren-1" data-aos="fade-up" data-aos-duration="800"></div>
-	<div class="DMServicespatteren-2" data-aos="fade-up" data-aos-duration="800"></div>
-<div class="container">
+	<div className="DMServicespatteren-1" data-aos="fade-up" data-aos-duration="800"></div>
+	<div className="DMServicespatteren-2" data-aos="fade-up" data-aos-duration="800"></div>
+<div className="container">
 	
 	
-  <div class="row  DMServicescontent">
+  <div className="row  DMServicescontent">
     <h2  >Our Digital <br/>
       Marketing Services </h2>
     <h4>Now let’s talk business.</h4>
     <p>As a holistic internet marketing company, we offer a wide range of digital marketing solutions to help you achieve
       your marketing goals. From taking care of your digital presence, running successful Google campaigns, offering best SEO services to amping your current content marketing, we do it all and more. </p>
   </div>
-  <div class="row">
-    <div class="col-md-3 col-sm-6">
-      <div class="section1">
-          <div class="DMSMM">
-			  <div class="desktop-hide dm-icons">
+  <div className="row">
+    <div className="col-md-3 col-sm-6">
+      <div className="section1">
+          <div className="DMSMM">
+			  <div className="desktop-hide dm-icons">
 			  	<img alt="" src={icon1} />
 			  </div>
               <h4  >Social Media Marketing</h4>
@@ -50,8 +50,8 @@ const DMServices = () => {
                 social platforms and make your
                 voice heard in the digital crowd.</p>
           </div>
-          <div class="DMSEO" >
-			  <div class="desktop-hide dm-icons">
+          <div className="DMSEO" >
+			  <div className="desktop-hide dm-icons">
 			  	<img alt="" src={icon2}/>
 			  </div>
 			  
@@ -64,22 +64,22 @@ const DMServices = () => {
 </div>
     </div>
 	  
-	<div class="col-md-6 text-center sitting-man" data-aos="fade-up" data-aos-duration="800">
+	<div className="col-md-6 text-center sitting-man" data-aos="fade-up" data-aos-duration="800">
 		<img alt="" src={man}/>
 	</div>
 	  
-    <div class="col-md-3 col-sm-6">
-      <div class="section2">
-          <div class="DMGPA">
-			  <div class="desktop-hide dm-icons">
+    <div className="col-md-3 col-sm-6">
+      <div className="section2">
+          <div className="DMGPA">
+			  <div className="desktop-hide dm-icons">
 			  	<img alt="" src={icon3} />
 			  </div>
               <h4  >Google Paid Ads</h4>
               <p>We are Google ads certified and have
                 the expertise to run successful paid advertising campaigns on Google to bring your target results.</p>
           </div>
-          <div class="DMCM" >
-			  <div class="desktop-hide dm-icons">
+          <div className="DMCM" >
+			  <div className="desktop-hide dm-icons">
 			  	<img alt="" src={icon4}/>
 			  </div>
               <h4  >Content Marketing</h4>
@@ -92,11 +92,11 @@ const DMServices = () => {
     </div>
   </div>
 	
-	<div class="row mt-5">
-		<div class="container">
-			<div class="d-flex affordablebtn align-items-center justify-content-center">
-			  <button type="button" class="btn btn-blinked  me-3 ">Get Blinked</button>
-			  <button type="button" class="btn btnplans ">View Plans</button>
+	<div className="row mt-5">
+		<div className="container">
+			<div className="d-flex affordablebtn align-items-center justify-content-center">
+			  <button type="button" className="btn btn-blinked  me-3 ">Get Blinked</button>
+			  <button type="button" className="btn btnplans ">View Plans</button>
 			</div>
 		</div>
 	</div>

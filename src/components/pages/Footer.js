@@ -10,13 +10,13 @@ import { Link } from "react-router-dom"
 const Footer = () => {
     return (
 
-<section class="Footer">
-	<div class="footerupper">
-		<div class="container">
-			 <div class="row"  >
-			  <div class="col-md-4 col-sm-4 mb-foot-logo"> <img src={logo} width="350"  /> </div>
-			  <div class="col-md-4 col-sm-4 Contactdetails">
-				<div class="d-flex">
+<section className="Footer">
+	<div className="footerupper">
+		<div className="container">
+			 <div className="row"  >
+			  <div className="col-md-4 col-sm-4 mb-foot-logo"> <img src={logo} width="350"  /> </div>
+			  <div className="col-md-4 col-sm-4 Contactdetails">
+				<div className="d-flex">
 				  <ul >
 					<li>CONTACT DETAILS</li>
 					<li><Link to="/">+1-646-880-3043</Link></li>
@@ -26,17 +26,17 @@ const Footer = () => {
 				  </ul>
 				</div>
 			  </div>
-			  <div class="col-md-4 col-sm-4 spcial-wrap">
-				<div class="justify-content-around" >
-				  <div class="mb-3">
-				  	<ul class="footer-social">
-                      <li><Link to="/" class="facebook"><i class="fa fa-facebook"></i></Link></li>
-					  <li><Link to="/" class="google-plus"><i class="fa fa-google-plus"></i></Link></li>
-                      <li><Link to="/" class="twitter"><i class="fa fa-twitter"></i></Link></li>
-                      <li><Link to="/" class="instagram"><i class="fa fa-instagram"></i></Link></li>
+			  <div className="col-md-4 col-sm-4 spcial-wrap">
+				<div className="justify-content-around" >
+				  <div className="mb-3">
+				  	<ul className="footer-social">
+                      <li><Link to="/" className="facebook"><i className="fa fa-facebook"></i></Link></li>
+					  <li><Link to="/" className="google-plus"><i className="fa fa-google-plus"></i></Link></li>
+                      <li><Link to="/" className="twitter"><i className="fa fa-twitter"></i></Link></li>
+                      <li><Link to="/" className="instagram"><i className="fa fa-instagram"></i></Link></li>
                     </ul>
 					  
-					 <div class="payment-cards">
+					 <div className="payment-cards">
 					 	<img src={cards} alt="Accepted secure forms of payment are Mastercard, American Express, Visa, Google Pay, Apple Pay, Diners Club International, JCB and Discover." width="210"  />
 					 </div> 
 				  </div>
@@ -46,9 +46,9 @@ const Footer = () => {
 		</div>
 	</div>
 	
-  <div class="container">
-    <div class="row gx-5 footerlinks ">
-      <div class="col">
+  <div className="container">
+    <div className="row gx-5 footerlinks ">
+      <div className="col">
         <p>SEO Services</p>
         <div> <Link to="/">SEO Packages</Link> </div>
         <div> <Link to="/">Link Building Services</Link> </div>
@@ -70,7 +70,7 @@ const Footer = () => {
         <div> <Link to="/">SEGMB Optimization</Link> </div>
         <div> <Link to="/">Citation Building</Link> </div>
       </div>
-      <div class="col" >
+      <div className="col" >
         <p>PPC SERVICES </p>
         <div> <Link to="/">PPC Audit</Link> </div>
         <div> <Link to="/">PPC Audits</Link> </div>
@@ -91,7 +91,7 @@ const Footer = () => {
         <div> <Link to="/">Digital Marketing</Link> </div>
         <div> <Link to="/">eBay Marketing</Link> </div>
       </div>
-      <div class="col" >
+      <div className="col" >
         <p>CONTENT MARKETING</p>
         <div> <Link to="/">Product Descriptions </Link> </div>
         <div> <Link to="/">Service Pages</Link> </div>
@@ -112,7 +112,7 @@ const Footer = () => {
         <div> <Link to="/">Personal Reputation</Link> </div>
         <div> <Link to="/"> Business Reputation</Link> </div>
       </div>
-      <div class="col" >
+      <div className="col" >
         <p>DESIGN & DEVELOPMENT </p>
         <div> <Link to="/">Web Design Packages </Link> </div>
         <div> <Link to="/">B2B Web Design</Link> </div>
@@ -137,7 +137,7 @@ const Footer = () => {
         <div> <Link to="/"> Roofers</Link> </div>
         <div> <Link to="/"> Travel/Tourism</Link> </div>
       </div>
-      <div class="col" >
+      <div className="col" >
         <p>MARKETING BLINK </p>
         <div> <Link to="/">About </Link> </div>
         <div> <Link to="/">Blog</Link> </div>
@@ -150,37 +150,37 @@ const Footer = () => {
         <div> <Link to="/"> Orlando</Link> </div>
         <div> <Link to="/"> San Diego</Link> </div>
         <div> <Link to="/"> Washington DC</Link> </div>
-        <div class="footerimg " style={{marginTop:"52px"}}>
+        <div className="footerimg " style={{marginTop:"52px"}}>
           <div > <img src={googlepartner}/> </div>
           <div style={{marginTop:"30px"}} > <img src={dmimage} /> </div>
         </div>
       </div>
     </div>
-    <div class="row mt-3"  >
-      <div class="col-md-12 text-end footerbtn">
-        <button class="btn">50% off* on your new order<img class="ms-2" src={chat} /></button>
+    <div className="row mt-3"  >
+      <div className="col-md-12 text-end footerbtn">
+        <button className="btn">50% off* on your new order<img className="ms-2" src={chat} /></button>
       </div>
     </div>
-    <div class="row footerend">
-      <div class="col-md-12 text-center copyright"  style={{marginTop:"32px"}}>
+    <div className="row footerend">
+      <div className="col-md-12 text-center copyright"  style={{marginTop:"32px"}}>
         <p>Copyright © 2021 Marketing Blink. All rights reserved. <Link to="/">Privacy Policy</Link> and <Link to="/">Conditions of Use</Link></p>
       </div>
     </div>
   </div>
 	
 	{/* <!-- bubbles animation --> */}
-	<div class="bubbles_wrap">
-	  <div class="bubble x1"></div>
-	  <div class="bubble x2"></div>
-	  <div class="bubble x3"></div>
-	  <div class="bubble x4"></div>
-	  <div class="bubble x5"></div>
-	  <div class="bubble x6"></div>
-	  <div class="bubble x7"></div>
-	  <div class="bubble x8"></div>
-	  <div class="bubble x9"></div>
-	  <div class="bubble x10"></div>
-	  <div class="bubble x11"></div>
+	<div className="bubbles_wrap">
+	  <div className="bubble x1"></div>
+	  <div className="bubble x2"></div>
+	  <div className="bubble x3"></div>
+	  <div className="bubble x4"></div>
+	  <div className="bubble x5"></div>
+	  <div className="bubble x6"></div>
+	  <div className="bubble x7"></div>
+	  <div className="bubble x8"></div>
+	  <div className="bubble x9"></div>
+	  <div className="bubble x10"></div>
+	  <div className="bubble x11"></div>
 	</div>
 	
 </section>

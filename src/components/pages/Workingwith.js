@@ -22,10 +22,10 @@ const Workingwith = () => {
 
          
 <section className=" workingwith" data-aos="fade-up" data-aos-duration="900">
-	<div className="particles_7">
+	<div className="particles_7 gt3_rotated_element">
 			  <img src={artheart1} alt="" width="50" height="50" />
 	</div>
-	<div className="particles_8">
+	<div className="particles_8 gt3_rotated_element">
 			  <img src={artheart2} alt="" width="87" height="87" />
 	</div>
 	<div className="particles_6 gt3_rotated_element">
@@ -37,7 +37,7 @@ const Workingwith = () => {
     </div>
     <div className="client-area">
       <section className="logo-area slider">
-        <div className="slide"> <img src={google} /> </div>
+        <div className="slide"> <img src={google}/> </div>
         <div className="slide"> <img src={facebook}/> </div>
         <div className="slide"> <img src={instagram}/> </div>
         <div className="slide"> <img src={youtube}/> </div>
