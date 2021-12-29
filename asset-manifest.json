@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react-dev/static/css/main.ee07733d.chunk.css",
-    "main.js": "/react-dev/static/js/main.eaedc8f8.chunk.js",
-    "main.js.map": "/react-dev/static/js/main.eaedc8f8.chunk.js.map",
-    "runtime-main.js": "/react-dev/static/js/runtime-main.9b2dc9c4.js",
-    "runtime-main.js.map": "/react-dev/static/js/runtime-main.9b2dc9c4.js.map",
-    "static/css/2.0a9ec390.chunk.css": "/react-dev/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.fbac7942.chunk.js": "/react-dev/static/js/2.fbac7942.chunk.js",
-    "static/js/2.fbac7942.chunk.js.map": "/react-dev/static/js/2.fbac7942.chunk.js.map",
-    "static/js/3.1680de21.chunk.js": "/react-dev/static/js/3.1680de21.chunk.js",
-    "static/js/3.1680de21.chunk.js.map": "/react-dev/static/js/3.1680de21.chunk.js.map",
+    "main.css": "/react-dev/static/css/main.5d4f8233.chunk.css",
+    "main.js": "/react-dev/static/js/main.8e7ed58d.chunk.js",
+    "main.js.map": "/react-dev/static/js/main.8e7ed58d.chunk.js.map",
+    "runtime-main.js": "/react-dev/static/js/runtime-main.010066f0.js",
+    "runtime-main.js.map": "/react-dev/static/js/runtime-main.010066f0.js.map",
+    "static/css/2.b0ce55e0.chunk.css": "/react-dev/static/css/2.b0ce55e0.chunk.css",
+    "static/js/2.6a48816a.chunk.js": "/react-dev/static/js/2.6a48816a.chunk.js",
+    "static/js/2.6a48816a.chunk.js.map": "/react-dev/static/js/2.6a48816a.chunk.js.map",
+    "static/js/3.f027bde9.chunk.js": "/react-dev/static/js/3.f027bde9.chunk.js",
+    "static/js/3.f027bde9.chunk.js.map": "/react-dev/static/js/3.f027bde9.chunk.js.map",
     "index.html": "/react-dev/index.html",
-    "static/css/2.0a9ec390.chunk.css.map": "/react-dev/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.ee07733d.chunk.css.map": "/react-dev/static/css/main.ee07733d.chunk.css.map",
-    "static/js/2.fbac7942.chunk.js.LICENSE.txt": "/react-dev/static/js/2.fbac7942.chunk.js.LICENSE.txt",
+    "static/css/2.b0ce55e0.chunk.css.map": "/react-dev/static/css/2.b0ce55e0.chunk.css.map",
+    "static/css/main.5d4f8233.chunk.css.map": "/react-dev/static/css/main.5d4f8233.chunk.css.map",
+    "static/js/2.6a48816a.chunk.js.LICENSE.txt": "/react-dev/static/js/2.6a48816a.chunk.js.LICENSE.txt",
     "static/media/style.css": "/react-dev/static/media/tab-patteren-2.00f1bef7.webp",
     "static/media/ads-icon-x1.e0d387b9.webp": "/react-dev/static/media/ads-icon-x1.e0d387b9.webp",
     "static/media/art-heart-1.cddbe921.webp": "/react-dev/static/media/art-heart-1.cddbe921.webp",
@@ -59,10 +59,10 @@
     "static/media/zendesk.0eccdf91.webp": "/react-dev/static/media/zendesk.0eccdf91.webp"
   },
   "entrypoints": [
-    "static/js/runtime-main.9b2dc9c4.js",
-    "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.fbac7942.chunk.js",
-    "static/css/main.ee07733d.chunk.css",
-    "static/js/main.eaedc8f8.chunk.js"
+    "static/js/runtime-main.010066f0.js",
+    "static/css/2.b0ce55e0.chunk.css",
+    "static/js/2.6a48816a.chunk.js",
+    "static/css/main.5d4f8233.chunk.css",
+    "static/js/main.8e7ed58d.chunk.js"
   ]
 }
