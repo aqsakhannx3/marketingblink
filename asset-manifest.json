@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react-dev/static/css/main.4dd40397.chunk.css",
-    "main.js": "/react-dev/static/js/main.09bc5345.chunk.js",
-    "main.js.map": "/react-dev/static/js/main.09bc5345.chunk.js.map",
-    "runtime-main.js": "/react-dev/static/js/runtime-main.010066f0.js",
-    "runtime-main.js.map": "/react-dev/static/js/runtime-main.010066f0.js.map",
+    "main.css": "/react-dev/static/css/main.11a98242.chunk.css",
+    "main.js": "/react-dev/static/js/main.5e4140c4.chunk.js",
+    "main.js.map": "/react-dev/static/js/main.5e4140c4.chunk.js.map",
+    "runtime-main.js": "/react-dev/static/js/runtime-main.9f762e3c.js",
+    "runtime-main.js.map": "/react-dev/static/js/runtime-main.9f762e3c.js.map",
     "static/css/2.0a9ec390.chunk.css": "/react-dev/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.8680d15d.chunk.js": "/react-dev/static/js/2.8680d15d.chunk.js",
-    "static/js/2.8680d15d.chunk.js.map": "/react-dev/static/js/2.8680d15d.chunk.js.map",
-    "static/js/3.f027bde9.chunk.js": "/react-dev/static/js/3.f027bde9.chunk.js",
-    "static/js/3.f027bde9.chunk.js.map": "/react-dev/static/js/3.f027bde9.chunk.js.map",
+    "static/js/2.b7f9273f.chunk.js": "/react-dev/static/js/2.b7f9273f.chunk.js",
+    "static/js/2.b7f9273f.chunk.js.map": "/react-dev/static/js/2.b7f9273f.chunk.js.map",
+    "static/js/3.23776dd3.chunk.js": "/react-dev/static/js/3.23776dd3.chunk.js",
+    "static/js/3.23776dd3.chunk.js.map": "/react-dev/static/js/3.23776dd3.chunk.js.map",
     "index.html": "/react-dev/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/react-dev/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.4dd40397.chunk.css.map": "/react-dev/static/css/main.4dd40397.chunk.css.map",
-    "static/js/2.8680d15d.chunk.js.LICENSE.txt": "/react-dev/static/js/2.8680d15d.chunk.js.LICENSE.txt",
+    "static/css/main.11a98242.chunk.css.map": "/react-dev/static/css/main.11a98242.chunk.css.map",
+    "static/js/2.b7f9273f.chunk.js.LICENSE.txt": "/react-dev/static/js/2.b7f9273f.chunk.js.LICENSE.txt",
     "static/media/style.css": "/react-dev/static/media/tab-patteren-2.00f1bef7.webp",
     "static/media/ads-icon-x1.e0d387b9.webp": "/react-dev/static/media/ads-icon-x1.e0d387b9.webp",
     "static/media/art-heart-1.cddbe921.webp": "/react-dev/static/media/art-heart-1.cddbe921.webp",
@@ -50,7 +50,7 @@
     "static/media/seostrategy-superman.6d18320f.webp": "/react-dev/static/media/seostrategy-superman.6d18320f.webp",
     "static/media/sitting-man.dce308c5.webp": "/react-dev/static/media/sitting-man.dce308c5.webp",
     "static/media/smm-icon-x1.931d7f72.webp": "/react-dev/static/media/smm-icon-x1.931d7f72.webp",
-    "static/media/super-blink-label.9bc75586.webp": "/react-dev/static/media/super-blink-label.9bc75586.webp",
+    "static/media/super-blink-label.a0fc48d3.png": "/react-dev/static/media/super-blink-label.a0fc48d3.png",
     "static/media/think.f37635cc.webp": "/react-dev/static/media/think.f37635cc.webp",
     "static/media/tiktok.1c83a7d7.webp": "/react-dev/static/media/tiktok.1c83a7d7.webp",
     "static/media/trustpilot.2643d71b.webp": "/react-dev/static/media/trustpilot.2643d71b.webp",
@@ -59,10 +59,10 @@
     "static/media/zendesk.0eccdf91.webp": "/react-dev/static/media/zendesk.0eccdf91.webp"
   },
   "entrypoints": [
-    "static/js/runtime-main.010066f0.js",
+    "static/js/runtime-main.9f762e3c.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.8680d15d.chunk.js",
-    "static/css/main.4dd40397.chunk.css",
-    "static/js/main.09bc5345.chunk.js"
+    "static/js/2.b7f9273f.chunk.js",
+    "static/css/main.11a98242.chunk.css",
+    "static/js/main.5e4140c4.chunk.js"
   ]
 }
