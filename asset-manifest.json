@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react-dev/static/css/main.e515ab1a.chunk.css",
-    "main.js": "/react-dev/static/js/main.17797469.chunk.js",
-    "main.js.map": "/react-dev/static/js/main.17797469.chunk.js.map",
-    "runtime-main.js": "/react-dev/static/js/runtime-main.010066f0.js",
-    "runtime-main.js.map": "/react-dev/static/js/runtime-main.010066f0.js.map",
+    "main.css": "/react-dev/static/css/main.1eeb461f.chunk.css",
+    "main.js": "/react-dev/static/js/main.4db9fe89.chunk.js",
+    "main.js.map": "/react-dev/static/js/main.4db9fe89.chunk.js.map",
+    "runtime-main.js": "/react-dev/static/js/runtime-main.f2b8fec9.js",
+    "runtime-main.js.map": "/react-dev/static/js/runtime-main.f2b8fec9.js.map",
     "static/css/2.b0ce55e0.chunk.css": "/react-dev/static/css/2.b0ce55e0.chunk.css",
-    "static/js/2.6a48816a.chunk.js": "/react-dev/static/js/2.6a48816a.chunk.js",
-    "static/js/2.6a48816a.chunk.js.map": "/react-dev/static/js/2.6a48816a.chunk.js.map",
-    "static/js/3.f027bde9.chunk.js": "/react-dev/static/js/3.f027bde9.chunk.js",
-    "static/js/3.f027bde9.chunk.js.map": "/react-dev/static/js/3.f027bde9.chunk.js.map",
+    "static/js/2.ec9da418.chunk.js": "/react-dev/static/js/2.ec9da418.chunk.js",
+    "static/js/2.ec9da418.chunk.js.map": "/react-dev/static/js/2.ec9da418.chunk.js.map",
+    "static/js/3.ee673719.chunk.js": "/react-dev/static/js/3.ee673719.chunk.js",
+    "static/js/3.ee673719.chunk.js.map": "/react-dev/static/js/3.ee673719.chunk.js.map",
     "index.html": "/react-dev/index.html",
     "static/css/2.b0ce55e0.chunk.css.map": "/react-dev/static/css/2.b0ce55e0.chunk.css.map",
-    "static/css/main.e515ab1a.chunk.css.map": "/react-dev/static/css/main.e515ab1a.chunk.css.map",
-    "static/js/2.6a48816a.chunk.js.LICENSE.txt": "/react-dev/static/js/2.6a48816a.chunk.js.LICENSE.txt",
+    "static/css/main.1eeb461f.chunk.css.map": "/react-dev/static/css/main.1eeb461f.chunk.css.map",
+    "static/js/2.ec9da418.chunk.js.LICENSE.txt": "/react-dev/static/js/2.ec9da418.chunk.js.LICENSE.txt",
     "static/media/style.css": "/react-dev/static/media/tab-patteren-2.00f1bef7.webp",
     "static/media/ads-icon-x1.e0d387b9.webp": "/react-dev/static/media/ads-icon-x1.e0d387b9.webp",
     "static/media/art-heart-1.cddbe921.webp": "/react-dev/static/media/art-heart-1.cddbe921.webp",
@@ -59,10 +59,10 @@
     "static/media/zendesk.0eccdf91.webp": "/react-dev/static/media/zendesk.0eccdf91.webp"
   },
   "entrypoints": [
-    "static/js/runtime-main.010066f0.js",
+    "static/js/runtime-main.f2b8fec9.js",
     "static/css/2.b0ce55e0.chunk.css",
-    "static/js/2.6a48816a.chunk.js",
-    "static/css/main.e515ab1a.chunk.css",
-    "static/js/main.17797469.chunk.js"
+    "static/js/2.ec9da418.chunk.js",
+    "static/css/main.1eeb461f.chunk.css",
+    "static/js/main.4db9fe89.chunk.js"
   ]
 }
